@@ -2,9 +2,9 @@
 title: FORMULARIO
 description: Página de ayuda de código de Pattern Detector
 translation-type: tm+mt
-source-git-commit: aa44c3ce87496f412191000f1980a7ebbde386cd
+source-git-commit: 9a02482d023ce1a6cbbff24b8e6509c91ddd2a6b
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,8 @@ Los siguientes subtipos le ayudan a identificar los diferentes tipos de problema
 
 * `modified.feature`: Estas funciones, recursos o API se actualizaron o modificaron para el Cloud Service. Antes de migrar al Cloud Service, ejecute la utilidad de migración para que estas funciones y recursos sean compatibles con el Cloud Service.
 * `unavailable.feature`: Su entorno tiene características y recursos que no están disponibles ni se han eliminado del Cloud Service. No migre estas características o recursos a un entorno de Cloud Service.
-* `unsupported.feature`: Su entorno utiliza algunas funciones que aún no son compatibles con el Cloud Service. No migre estas características o recursos a un entorno de Cloud Service. Tenga en cuenta las notas de la versión mensuales para ver la disponibilidad de las funciones.
-* `unsupported.api`: Su entorno tiene algunas API que aún no son compatibles con el Cloud Service. Antes de migrar al Cloud Service, deshabilite, sustituya o elimine estas API de su código. Tenga en cuenta las notas de la versión mensuales para ver la disponibilidad de las funciones.
+* `unsupported.feature`: Su entorno utiliza algunas funciones que aún no son compatibles con el Cloud Service. No migre estas características o recursos a un entorno de Cloud Service. Busque las notas de la versión mensuales para obtener información sobre la disponibilidad de las funciones.
+* `unsupported.api`: Su entorno tiene algunas API que aún no son compatibles con el Cloud Service. Antes de migrar al Cloud Service, deshabilite, sustituya o elimine estas API de su código. Busque las notas de la versión mensuales para obtener información sobre la disponibilidad de las funciones.
 
 Consulte las secciones [Posibles implicaciones y riesgos](#implications-and-risks) y [Posibles soluciones](#solutions) para obtener información sobre los reemplazos y otras acciones necesarias para hacer que algunas funciones y API sean compatibles con el Cloud Service
 
@@ -75,19 +75,19 @@ Solucione los siguientes problemas antes de migrar a [!DNL Adobe Experience Mana
 
 * Elimine el paso de verificación de la Forms adaptable existente antes de mover estos formularios a un entorno [!DNL Cloud Service]. (VERIFY_STEP)
 
-* Modifique los formularios adaptables existentes para utilizar [Submit to REST endpoint](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-to-rest-endpoint), [Send email](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#send-email), [Submit using Form Data Model](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-using-form-data-model) e [Invoke an AEM Workflow](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Submit Actions. La acción de envío del portal de Forms y del portal de Forms aún no están disponibles. Tenga en cuenta las notas de la versión mensuales para ver la disponibilidad de las funciones. (FORMS_PORTAL_SUBMISSION, FORMS_PORTAL)
+* Modifique los formularios adaptables existentes para utilizar [Submit to REST endpoint](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-to-rest-endpoint), [Send email](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#send-email), [Submit using Form Data Model](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-using-form-data-model) e [Invoke an AEM Workflow](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Submit Actions. La acción de envío del portal de Forms y del portal de Forms aún no están disponibles. Busque las notas de la versión mensuales para obtener información sobre la disponibilidad de las funciones. (FORMS_PORTAL_SUBMISSION, FORMS_PORTAL)
 
 * Puede desarrollar un flujo de trabajo AEM y modificar los formularios adaptables existentes para utilizar [AEM Workflow](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Enviar acción para enviar datos a un flujo de trabajo AEM en lugar de utilizar la acción de envío **[!UICONTROL Enviar al Forms Workflow]**. Puede desarrollar una acción de envío personalizada para enviar datos, archivos adjuntos o documentos de registro (DoR) a un proceso de LiveCycle en lugar de utilizar [!UICONTROL Enviar al Forms Workflow]. (LC_WORKFLOW_SUBMISSION)
 
-* Observe las notas de la versión mensuales de la disponibilidad de la función de comunicaciones interactivas. No migre las comunicaciones interactivas, las cartas y los diccionarios relacionados a un entorno de Cloud Service hasta que la función no esté disponible. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
+* Busque las notas de la versión mensuales para obtener información sobre la disponibilidad de la función de comunicaciones interactivas. No migre las comunicaciones interactivas, las cartas y los diccionarios relacionados a un entorno de Cloud Service hasta que la función no esté disponible. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
-* Desactive la opción **[!UICONTROL Guardar como borrador]** y **[!UICONTROL Habilitar guardado automático]** en su Forms adaptable antes de migrarlas a Cloud Service. Puede activar estas opciones una vez que la función Forms Portal se haya lanzado para el Cloud Service. Tenga en cuenta las notas de la versión mensuales para ver la disponibilidad de las funciones. (DRAFT_AUTO_SAVE, DRAFT_SAVE)
+* Desactive la opción **[!UICONTROL Guardar como borrador]** y **[!UICONTROL Habilitar guardado automático]** en su Forms adaptable antes de migrarlas a Cloud Service. Puede activar estas opciones una vez que la función Forms Portal se haya lanzado para el Cloud Service. Busque las notas de la versión mensuales para obtener información sobre la disponibilidad de las funciones. (DRAFT_AUTO_SAVE, DRAFT_SAVE)
 
 * No hay reemplazo para el acordeón de metadatos. Quítelo de los formularios antes de migrarlo a Cloud Service.(METADATA_ACCORDION_FORM_CONTAINER)
 
 * Utilice Google reCaptcha en lugar del servicio CAPTCHA proporcionado por Adobe Experience Manager. (FORMS_CAPTCHA)
 
-* Forms adaptable ofrece un diseño interactivo. Estos formularios cambian el aspecto, el diseño y la interactividad en función del dispositivo subyacente. Puede seguir utilizando Adaptive Forms en dispositivos móviles mientras observa las notas de la versión mensuales de la disponibilidad de la aplicación [!DNL AEM Forms]. (AEM_FORMS_APP)
+* Forms adaptable ofrece un diseño interactivo. Estos formularios cambian el aspecto, el diseño y la interactividad en función del dispositivo subyacente. Puede seguir utilizando Forms adaptable en dispositivos móviles. Busque las notas de la versión mensuales para obtener información sobre la disponibilidad de la aplicación [!DNL AEM Forms]. (AEM_FORMS_APP)
 
 * No migre un modelo de flujo de trabajo AEM que utilice un paso de flujo de trabajo de servicios de documentos . Además, no migre ni actualice Forms adaptable que envíe datos de usuario a un modelo de flujo de trabajo que utilice los pasos del flujo de trabajo de servicios de documentos o cambie la acción de envío a una [compatible](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html) antes de migrar el formulario. (WORKFLOW_DOCSERVICES)
 
