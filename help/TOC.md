@@ -4,8 +4,8 @@ user-guide-title: Guía de detección de patrones de Experience Manager
 breadcrumb-title: Detección de patrones de AEM
 user-guide-description: Obtenga información sobre la detección de patrones de Adobe Experience Manager.
 feature-set: Experience Manager
-feature: Herramientas para desarrolladores
-role: Desarrollador
+feature: Developer Tools
+role: Developer
 translation-type: tm+mt
 source-git-commit: a6ba6e93c89644160650882ecbf17028bec35068
 workflow-type: tm+mt
