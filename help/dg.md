@@ -1,20 +1,28 @@
 ---
 title: DG
 description: Página de ayuda de código de Pattern Detector
+exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 translation-type: tm+mt
-source-git-commit: a2c7137dd5cb2479bc0c6134d3afa58111049a68
+source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 0%
+source-wordcount: '569'
+ht-degree: 1%
 
 ---
-
 
 # DG {#dg}
 
 Directrices para desarrolladores
 
 ## Fondo {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_dg_overview"
+>title="Directrices para desarrolladores"
+>abstract="El código DG identifica las desviaciones de determinadas directrices de desarrollo para AEM 6.5 y AEM como Cloud Service. Las prácticas recomendadas pueden mejorar la capacidad de mantenimiento y el rendimiento del sistema. Aunque algunas de estas desviaciones pueden no ser un problema en otros contextos de la aplicación, incluidas las versiones anteriores de AEM, pueden causar problemas cuando se utilizan con AEM como Cloud Service."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html" text="Desarrollo de AEM: directrices y prácticas recomendadas"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="Directrices de desarrollo de AEM as a Cloud Service"
+
 
 `DG` identifica las desviaciones de las directrices de desarrollo seleccionadas para  [AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html) y  [AEM como Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html). Las prácticas recomendadas pueden mejorar la capacidad de mantenimiento y el rendimiento del sistema. Aunque algunas de estas desviaciones pueden no ser un problema en otros contextos de la aplicación, incluidas las versiones anteriores de AEM, pueden causar problemas cuando se utilizan con AEM como Cloud Service.
 
@@ -38,6 +46,13 @@ Los subtipos se utilizan para identificar los diferentes tipos de infracciones d
    * AEM como Cloud Service de directrices de desarrollo para [tareas en segundo plano y trabajos de larga duración](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#background-tasks-and-long-running-jobs) sugieren que el código ejecutado como tarea programada debe suponer que la instancia en la que se está ejecutando se puede reducir en cualquier momento. Por lo tanto, el código debe ser flexible y reanudable.
 
 ## Posibles soluciones {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_dg_guidance"
+>title="Directrices de implementación"
+>abstract="Siguiendo AEM directrices de desarrollo y prácticas recomendadas, los clientes deben revisar sus implementaciones sobre el uso del planificador de Sling Commons y reestructurarlas en trabajos de Sling, reestructurar sus tareas de mantenimiento del sistema, revisar la transmisión de cualquier dato binario y refactorizar su código para que sea compatible con AEM como Cloud Service."
+>additional-url="https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing" text="Trabajos sling"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html" text="Tareas de mantenimiento en AEM como Cloud Service"
 
 * `java.io.inputstream`
    * Utilice un método de carga binario directo en el que el binario se añada directamente al almacén de datos.
