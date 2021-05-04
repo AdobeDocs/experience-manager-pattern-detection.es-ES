@@ -1,20 +1,27 @@
 ---
 title: UMI
 description: Página de ayuda de código de Pattern Detector
+exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 translation-type: tm+mt
-source-git-commit: 4f94d4a1e0b8eb7bedbedba2c8a683f34655b527
+source-git-commit: 76dc944f1592118920f89c513faf456b8aa443a9
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 0%
+source-wordcount: '234'
+ht-degree: 3%
 
 ---
-
 
 # UMI {#umi}
 
 Problema de falta de configuración de la actualización
 
 ## Fondo {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_umi_overview"
+>title="Problema de falta de configuración de la actualización"
+>abstract="UMI identifica las modificaciones a ciertas configuraciones de OSGi que causarán problemas al actualizar, incluida una actualización fallida o una funcionalidad reducida."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="Cambios importantes: AEM como Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=es" text="AEM as a Cloud Service: Notas de la versión"
 
 `UMI` identifica las modificaciones a ciertas configuraciones de OSGi que causarán problemas al actualizar, incluida una actualización fallida o una funcionalidad reducida.
 
@@ -32,6 +39,12 @@ Se comprueban las siguientes configuraciones para su modificación:
    * Es posible que ciertas funciones no funcionen correctamente. Por ejemplo, cambiar `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory` puede causar que algunos archivos JSP no se compilen, lo que en última instancia resultará en la pérdida de funcionalidad.
 
 ## Posibles soluciones {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_umi_guidance"
+>title="Directrices de implementación"
+>abstract="Una práctica recomendada es revisar las configuraciones actuales y revertir los cambios realizados en las configuraciones mencionadas para evitar cualquier problema de actualización futura. Póngase en contacto con la asistencia de Adobe para obtener ayuda y aclaraciones"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Asistencia al Experience Cloud"
 
 * No cambie ni elimine las cuatro configuraciones mencionadas anteriormente.
 * Si las configuraciones se han cambiado, se deben restaurar a los valores esperados. Estos valores se indican en los mensajes `UMI`.
