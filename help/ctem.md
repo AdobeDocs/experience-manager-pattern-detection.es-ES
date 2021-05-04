@@ -1,20 +1,25 @@
 ---
 title: CTEM
 description: Página de ayuda de código de Pattern Detector
+exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 translation-type: tm+mt
-source-git-commit: a2c7137dd5cb2479bc0c6134d3afa58111049a68
+source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 4%
+source-wordcount: '284'
+ht-degree: 5%
 
 ---
-
 
 # CTEM {#ctem}
 
 Plantilla personalizada
 
 ## Fondo {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_ctem_overview"
+>title="Plantilla personalizada"
+>abstract="CTEM identifica los componentes personalizados que se han instalado en AEM. Esta información se proporciona a los efectos de la evaluación de las prácticas recomendadas"
 
 `CTEM` identifica las plantillas personalizadas que se han instalado en AEM. Esta información se proporciona a los efectos de la evaluación de las prácticas recomendadas.
 
@@ -25,9 +30,23 @@ Las plantillas se identifican con un valor de tipo principal &quot;cq:Template&q
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_ctem_guidance"
+>title="Directrices de implementación"
+>abstract="Una práctica recomendada es mover todas las plantillas estáticas a plantillas editables. Los clientes pueden aprovechar las herramientas de modernización AEM existentes para migrar plantillas estáticas a plantillas editables."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html" text="Plantillas editables"
+>additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="Herramientas de modernización de AEM"
+
 * Una práctica recomendada es mover todas las plantillas estáticas a plantillas editables.
 
 ## Posibles soluciones {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_ctem_tools"
+>title="Herramientas y recursos"
+>abstract="Con AEM Modernización Suite, los clientes pueden manipular la estructura de una página desde una definición estática hasta una plantilla editable. La intención es ayudar a los clientes a pasar de las capacidades limitadas de las funciones heredadas a las opciones de AEM modernas y robustas. Estas herramientas son configurables, tienen en cuenta la configuración y son ampliables. Póngase en contacto con la asistencia de Adobe para obtener ayuda y aclaraciones"
+>additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/page-structure.html" text="Conversor de estructura de página"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Asistencia al Experience Cloud"
 
 * Aproveche las [AEM Herramientas de modernización](https://opensource.adobe.com/aem-modernize-tools/) para migrar plantillas estáticas a plantillas editables.
 * Encontrará más información sobre las plantillas editables en [Plantillas](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html).
