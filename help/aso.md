@@ -2,11 +2,10 @@
 title: ASO
 description: Página de ayuda de código de Pattern Detector
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-translation-type: tm+mt
-source-git-commit: 449288e567adda9998a89e0ad5198fd5a4e93f35
+source-git-commit: dc9d6c94d5a724cf24890378ba6a8af7396760c6
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 5%
+source-wordcount: '309'
+ht-degree: 4%
 
 ---
 
@@ -28,8 +27,8 @@ Los subtipos se utilizan para identificar diferentes tipos de información:
 
 * `aem.version`: La versión AEM.
 * `aem.product`: Detección del uso de un producto AEM (Comercio, Forms, etc.).
-* `node.count`: Recuento aproximado de nodos de un tipo determinado (página, recurso, etc.).
-* `node.store`: El tipo de implementación del almacén de nodos (SegmentNodeStore, DocumentNodeStore).
+* `node.count`: El recuento aproximado de nodos de un tipo determinado (página, recurso, etc.) y el total general de nodos.
+* `node.store`: El tipo de implementación del almacén de nodos (SegmentNodeStore, DocumentNodeStore) y su tamaño.
 * `data.store`: Tipo de implementación del almacén de datos (FileDataStore, S3DataStore, AzureDataStore).
 * `maintenance.task`: Una tarea de mantenimiento.
 * `slow.query`: Una consulta lenta.
