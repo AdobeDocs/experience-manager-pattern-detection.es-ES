@@ -2,15 +2,14 @@
 title: URL
 description: Página de ayuda de código de Pattern Detector
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-translation-type: tm+mt
-source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
+source-git-commit: 8539f5957d7f98af17819d3dd087272f029791aa
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 0%
+source-wordcount: '414'
+ht-degree: 3%
 
 ---
 
-# URS {#urs}
+# URL {#urs}
 
 Estructura de repositorio no admitida
 
@@ -33,6 +32,7 @@ Los subtipos se utilizan para identificar tipos específicos de problemas de rep
 * `node.location`: Un nodo en el  `/etc` que se ha modificado desde la instalación.
 * `workflow.location`: Un modelo de flujo de trabajo o lanzador en  `/etc/workflow`.
 * `package.structure`: Paquete que contiene contenido mutable e inmutable.
+* `node.name.length`: Un nombre de nodo con longitud no admitida.
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
@@ -49,6 +49,6 @@ Los subtipos se utilizan para identificar tipos específicos de problemas de rep
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Asistencia al Experience Cloud"
 
 * Consulte [Reestructuración del repositorio](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html) para obtener instrucciones sobre cómo prepararse para AEM como Cloud Service.
-* Consulte también [AEM Estructura del proyecto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) para obtener más información sobre las áreas mutables e inmutables del repositorio.
+* Consulte también [AEM Estructura del proyecto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=es) para obtener más información sobre las áreas mutables e inmutables del repositorio.
 * Póngase en contacto con nuestro [AEM equipo de soporte](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o para solucionar problemas.
 * Aproveche el [Modernizador de repositorio](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/repo-modernizer.html#refactoring-tools) para reestructurar los paquetes de proyectos existentes separando contenido y código en paquetes discretos para que sean compatibles con la estructura de proyectos definida para Adobe Experience Manager como Cloud Service.
