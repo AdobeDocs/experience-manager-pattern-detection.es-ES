@@ -2,9 +2,9 @@
 title: ASO
 description: Página de ayuda de código de Pattern Detector
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 3e05ecb2c78b0ebf97d334cf592347b54255c75f
+source-git-commit: d45c6b561a9665cbac39bfd8d9ce6eb2658c24e8
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '359'
 ht-degree: 4%
 
 ---
@@ -33,10 +33,14 @@ Los subtipos se utilizan para identificar diferentes tipos de información:
 * `maintenance.task`: Una tarea de mantenimiento.
 * `slow.query`: Una consulta lenta.
 * `group.membership`: Número de usuarios y subgrupos ( miembros directos/declarados únicamente ) de un grupo.
+* `cqtag.count`: El número de recursos etiquetados por CQ.
+* `smarttag.count`: El número de recursos etiquetados inteligentes.
+* `ccom.version`: Versión del paquete de componentes principales.
+* `instance.type`: El tipo de instancia de AEM (autor|publicación).
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
-* La versión de AEM, los recuentos de nodos, la pertenencia a grupos y los tipos de implementación del almacén de nodos y el almacén de datos se proporcionan con fines informativos.
+* La versión de AEM, los recuentos de nodos, la pertenencia a grupos, el almacén de nodos, los tipos de implementación del almacén de datos, el recuento de etiquetas CQ, el recuento de etiquetas inteligentes, la versión del componente principal y AEM tipo de instancia se proporcionan con fines informativos.
 * La aplicación personalizada puede depender de productos o características no disponibles en AEM as a Cloud Service.
 * La actualización con funciones no compatibles puede provocar un error en la actualización y una aplicación no funcional.
 
