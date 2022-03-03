@@ -1,12 +1,11 @@
 ---
 title: CCL
-description: Página de ayuda de código de Pattern Detector
+description: Página de ayuda de código del detector de patrones
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
-translation-type: tm+mt
 source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -28,14 +27,14 @@ Se utiliza un subtipo con este código:
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
-* Las bibliotecas de cliente que se han agregado a AEM deben revisarse para garantizar que no haya duplicación y que se utilicen las versiones más recientes.
+* Las bibliotecas de cliente que se han añadido a AEM deben revisarse para garantizar que no haya duplicación y que se utilicen las versiones más recientes.
 
 ## Posibles soluciones {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccl_guidance"
 >title="Directrices de implementación"
->abstract="Las bibliotecas de cliente agregadas a AEM identificadas por CCL deben revisarse para garantizar que no haya duplicación y que se utilicen las versiones más recientes. Póngase en contacto con la asistencia de Adobe para obtener ayuda y aclaraciones"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Asistencia al Experience Cloud"
+>abstract="Las bibliotecas de cliente añadidas a AEM identificadas por CCL deben revisarse para garantizar que no haya duplicación y que se utilicen las versiones más recientes. Póngase en contacto con la asistencia de Adobe para obtener ayuda y aclaraciones"
+>additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
-* Póngase en contacto con nuestro [AEM equipo de soporte](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o para solucionar problemas.
+* Póngase en contacto con nuestro [Equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o solucionar problemas.
