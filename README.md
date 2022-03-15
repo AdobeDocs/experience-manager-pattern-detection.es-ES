@@ -1,14 +1,13 @@
 ---
 source-git-commit: 6615eef21010d2f9ccbc7ecab32cf21901ca5387
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
 source-wordcount: '73'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 # Detección de patrones de Adobe Experience Manager
 
-Este es el repositorio para la detección de patrones de Adobe Experience Manager.
+Este es el repositorio de la detección de patrones de Adobe Experience Manager.
 
 Las contribuciones a la documentación son bienvenidas. Consulte los siguientes recursos:
 
