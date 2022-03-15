@@ -3,9 +3,9 @@ title: FORM
 description: Página de ayuda de código del detector de patrones
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 5ba6a9a4b6da17bd78acdd82c955e296d8bbc994
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1110'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Aborde los siguientes problemas, antes de migrar a [!DNL Adobe Experience Manage
 
 * El paso Verificar no está disponible. (VERIFY_STEP)
 
-* La acción de envío de **[!UICONTROL Enviar a Forms Workflow]** no está disponible. En AEM 6.5 Forms y versiones anteriores, la acción de envío se utilizaba para enviar datos de formulario adaptables a AEM Forms heredado en flujos de trabajo y LiveCycles Workflow JEE. (LC_WORKFLOW_SUBMISSION)
+* La acción de envío **[!UICONTROL Enviar a Forms Workflow]** no está disponible. En AEM 6.5 Forms y versiones anteriores, la acción de envío se utilizaba para enviar datos de formulario adaptables a AEM Forms heredados en flujos de trabajo JEE y LiveCycle. (LC_WORKFLOW_SUBMISSION)
 
 * La capacidad de comunicaciones interactivas no está disponible.  (FP_PROFILE_INTERACTIVE_COMMUNICATIONS).
 
@@ -68,7 +68,7 @@ Aborde los siguientes problemas, antes de migrar a [!DNL Adobe Experience Manage
 >id="aemcloud_bpa_forms_guidance"
 >title="Directrices de implementación"
 >abstract="La información expuesta a través del código Forms puede proporcionar instrucciones acerca de los reemplazos y otras acciones necesarias para hacer algunas funciones y API compatibles con Cloud Service. Póngase en contacto con la asistencia de Adobe para obtener ayuda y aclaraciones"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
+>additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
 * Use la utilidad de migración para convertir todas las secuencias de comandos de reglas del entorno en funciones reutilizables. Puede emplear las funciones reutilizables con el editor de reglas visuales para seguir obteniendo los resultados con secuencias de comandos de reglas. (CODE_EDITOR)
 
@@ -84,7 +84,7 @@ Aborde los siguientes problemas, antes de migrar a [!DNL Adobe Experience Manage
 
 * Modifique los formularios adaptables existentes para utilizar las acciones de envío [Enviar al punto de conexión REST](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=es#submit-to-rest-endpoint), [Enviar correo electrónico](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=es#send-email), [Enviar mediante el modelo de datos de formulario](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=es#submit-using-form-data-model) e [Invocar un flujo de trabajo de AEM.](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=es#invoke-an-aem-workflow)
 
-* Puede desarrollar un flujo de trabajo de AEM y modificar los formularios adaptables existentes para utilizar la acción de envío [Flujo de trabajo de AEM](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) y enviar datos a un flujo de trabajo de AEM en lugar de usar **[!UICONTROL Enviar a Forms Workflow]**. Puede desarrollar una acción de envío personalizada para enviar datos, archivos adjuntos o un documento de registro (DoR) a un proceso de LiveCycle en lugar de usar [!UICONTROL Enviar a Forms Workflow]. (LC_WORKFLOW_SUBMISSION)
+* Puede desarrollar un flujo de trabajo de AEM y modificar los formularios adaptables existentes para utilizar la acción de envío [Flujo de trabajo de AEM](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=es#invoke-an-aem-workflow) y enviar datos a un flujo de trabajo de AEM en lugar de usar **[!UICONTROL Enviar a Forms Workflow]**. Puede desarrollar una acción de envío personalizada para enviar datos, archivos adjuntos o un documento de registro (DoR) a un proceso de LiveCycle en lugar de usar [!UICONTROL Enviar a Forms Workflow]. (LC_WORKFLOW_SUBMISSION)
 
 * Busque las notas de la versión mensuales para obtener información sobre la disponibilidad de la función de comunicaciones interactivas. No migre las comunicaciones interactivas, las cartas y los diccionarios relacionados a un entorno de Cloud Service hasta que la función no esté disponible. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
@@ -98,4 +98,4 @@ Aborde los siguientes problemas, antes de migrar a [!DNL Adobe Experience Manage
 
 * La compatibilidad con formularios adaptables basados en XFA no está disponible de forma predeterminada. Si tiene intención de utilizar formularios adaptable basados en XFA, póngase en contacto con el servicio de soporte de Adobe con detalles de su caso de uso y requisitos específicos.(XFA_BASED_FORM, XDP_BASED_FORM)
 
-Póngase en contacto con [Soporte de Adobe](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o para solucionar problemas.
+Póngase en contacto con el [Soporte de Adobe](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o para solucionar problemas.
