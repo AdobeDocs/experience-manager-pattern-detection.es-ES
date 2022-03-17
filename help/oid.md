@@ -2,8 +2,8 @@
 title: OID
 description: Página de ayuda de código del detector de patrones
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: ht
+source-git-commit: 71fd8c278f5fa2c44e489316be36d7d0376fe695
+workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Definición de índice de Oak
 
 Los subtipos se utilizan para identificar los diferentes tipos de información:
 
-* `custom.index.violation`: una incompatibilidad de índice de Oak personalizada con AEM as a Cloud Service.
+* `index.rule.violation`: una incompatibilidad de índice de Oak personalizada con AEM as a Cloud Service.
 * `standard.index.modification`: una modificación a un índice de Oak estándar.
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
@@ -35,7 +35,7 @@ Los subtipos se utilizan para identificar los diferentes tipos de información:
 >title="Directrices de implementación"
 >abstract="Una práctica recomendada es revisar todos los índices personalizados y restringir según las directrices de indexación de contenido. Aproveche el conversor de índices para migrar las definiciones de índices personalizadas de Oak existentes a la definición de índices Oak personalizada y compatible de AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=es#oak-indexes" text="Directrices de paquetes"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/index-converter.html?lang=es#refactoring-tools" text="Conversor de índices"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/index-converter.html#refactoring-tools" text="Conversor de índices"
 
 * Las modificaciones en las definiciones de índices estándar de Oak pueden perderse durante una actualización de AEM.
 * Las definiciones de Oak son inmutables, deben empaquetarse con el código de proyecto del cliente y solo deben implementarse mediante Cloud Manager.
