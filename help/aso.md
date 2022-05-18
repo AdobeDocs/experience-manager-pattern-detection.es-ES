@@ -5,7 +5,7 @@ exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: a3b610f2028c4923344672dd71c2bd5d252a35c4
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Los subtipos se utilizan para identificar diferentes tipos de información:
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
-* La versión de AEM, los recuentos de nodos, la pertenencia a grupos, el almacén de nodos, los tipos de implementación del almacén de datos, el recuento de etiquetas CQ, el recuento de etiquetas inteligentes, la versión del componente principal, AEM tipo de instancia y el recuento de recursos no procesados se proporcionan con fines informativos.
+* La versión de AEM, los recuentos de nodos, los miembros del grupo, el almacén de nodos, los tipos de implementación del almacén de datos, el recuento de etiquetas CQ, el recuento de etiquetas inteligentes, la versión del componente principal, el tipo de instancia de AEM y el recuento de recursos sin procesar se proporcionan con fines informativos.
 * El mayor número de URL mnemónicas (>1000) puede cargar Dispatcher y los servidores de publicación con consultas costosas.
 * La aplicación personalizada puede depender de productos o características no disponibles en AEM as a Cloud Service.
 * La actualización con funciones no compatibles puede provocar un error en la actualización y una aplicación no funcional.
@@ -56,7 +56,7 @@ Los subtipos se utilizan para identificar diferentes tipos de información:
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
 * No se recomiendan las actualizaciones de AEM con productos o funciones no compatibles y es posible que no sean compatibles.
-* Los recursos no procesados deben procesarse y la propiedad dam:assetState del nodo jcr:content del recurso debe establecerse en &quot;procesados&quot; o eliminarse del conjunto de migración antes de migrar a AEMaaCS.
+* Los recursos no procesados deben procesarse y la propiedad dam:assetState del nodo jcr:content del recurso debe establecerse en “processed” o eliminarse del conjunto de migración antes de migrar a AEMaaCS.
 * Las URL mnemónicas podrían reemplazarse con las reescrituras de Apache.
 * Consulte las [notas de la versión](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=es) para obtener más información acerca de los cambios más recientes en AEM as a Cloud Service.
 * Póngase en contacto con nuestro [Equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o solucionar problemas.
