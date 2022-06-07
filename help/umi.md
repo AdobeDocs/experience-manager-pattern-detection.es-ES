@@ -3,9 +3,9 @@ title: UMI
 description: Página de ayuda de código del detector de patrones
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 source-git-commit: b19818f3f043641328b68adfe37a9c9cb09d1143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -45,11 +45,11 @@ Se comprueban las siguientes configuraciones para su modificación:
 >id="aemcloud_bpa_umi_guidance"
 >title="Directrices de implementación"
 >abstract="Una práctica recomendada es revisar las configuraciones actuales y revertir los cambios realizados en las configuraciones mencionadas para evitar cualquier problema de actualización futuro. Póngase en contacto con la asistencia de Adobe para obtener ayuda y aclaraciones"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
+>additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
 * No cambie ni elimine las cuatro configuraciones mencionadas anteriormente.
-   * En caso de la siguiente violación :\
-      &quot;Faltan las propiedades requeridas para la configuración OSGi &#39;xyz-configuration&#39;: &#39;[propiedad-1,propiedad-2...]&#39;.&quot;\
+   * En caso de la siguiente infracción:\
+      “Faltan propiedades requeridas para la configuración OSGi &#39;xyz-configuration&#39;: &#39;[property-1, property-2...]&#39;”.\
       Confirme si estas eliminaciones son legítimas o no, ya que estas configuraciones de OSGI son OOTB y es posible que nunca se hayan modificado o guardado desde el Administrador de configuración OSGi.
 * Si las configuraciones se han modificado, se deben restaurar a los valores esperados. Estos valores se indican en los mensajes de `UMI`.
 * Para `com.day.cq.commons.impl.ExternalizerImpl`, consulte la [documentación](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/externalizer.html?lang=es) para definir la configuración del externalizador mediante variables de entorno de Cloud Manager en AEM as a Cloud Service.
