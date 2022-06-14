@@ -2,10 +2,10 @@
 title: ASO
 description: Página de ayuda de código del detector de patrones
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: a3b610f2028c4923344672dd71c2bd5d252a35c4
+source-git-commit: 9b46c353b052da43eca7ed636f62e08109f74aab
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 98%
 
 ---
 
@@ -39,6 +39,7 @@ Los subtipos se utilizan para identificar diferentes tipos de información:
 * `instance.type`: el tipo de instancia de AEM (creación o publicación).
 * `unprocessed.asset.count`: el número de activos sin procesar.
 * `vanity.url.count`: el número de direcciones URL personalizadas.
+* `index.size`: Tamaño total del índice de Lucene migrable.
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
