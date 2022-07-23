@@ -2,10 +2,10 @@
 title: CTEM
 description: Página de ayuda de código del detector de patrones
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
-workflow-type: ht
+source-git-commit: 9a993a5cf078e5bc61cb5d314d2a15abcbd33f2a
+workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,7 @@ Las plantillas se identifican con un valor de tipo principal &quot;cq:Template&q
 >id="aemcloud_bpa_ctem_guidance"
 >title="Directrices de implementación"
 >abstract="Una práctica recomendada es mover todas las plantillas estáticas a plantillas editables. Los clientes pueden aprovechar las herramientas de modernización AEM existentes para migrar plantillas estáticas a plantillas editables."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html?lang=es" text="Plantillas editables"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html" text="Plantillas editables"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="Herramientas de modernización de AEM"
 
 * Una práctica recomendada es mover todas las plantillas estáticas a plantillas editables.
@@ -44,8 +44,8 @@ Las plantillas se identifican con un valor de tipo principal &quot;cq:Template&q
 >id="aemcloud_bpa_ctem_tools"
 >title="Herramientas y recursos"
 >abstract="Con la ayuda de AEM Modernización Suite, los clientes pueden manipular la estructura de una página desde una definición estática hasta una plantilla editable. La intención es ayudar a los clientes a pasar de las capacidades limitadas de las funciones heredadas a las opciones de AEM modernas y robustas. Estas herramientas son configurables, tienen en cuenta la configuración y son ampliables. Póngase en contacto con la asistencia de Adobe para obtener ayuda y aclaraciones"
->additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/page-structure.html" text="Conversor de estructura de página"
->additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
+>additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/structure/about.html" text="Conversor de estructura de página"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
 * Aproveche las [Herramientas de modernización AEM](https://opensource.adobe.com/aem-modernize-tools/) para migrar plantillas estáticas a plantillas editables.
 * Para obtener más información sobre las plantillas editables, consulte [Plantillas](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html?lang=es).
