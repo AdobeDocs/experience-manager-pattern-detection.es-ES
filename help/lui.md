@@ -2,10 +2,10 @@
 title: LUI
 description: Página de ayuda de código del detector de patrones
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-source-git-commit: 1dbb239f23986f11c0dd6bfa883d8ab9124c0b52
-workflow-type: ht
+source-git-commit: 1c2d064c239ad6f5599678d8057fe2a6b7fd8d01
+workflow-type: tm+mt
 source-wordcount: '703'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -61,8 +61,8 @@ y el valor de la propiedad no contiene `sling:resourceType`
 >id="aemcloud_bpa_lui_tools"
 >title="Herramientas y recursos"
 >abstract="Con la ayuda del conjunto de modernización de AEM, los clientes pueden convertir los cuadros de diálogo clásicos (ExtJS) a cuadros de diálogo de Coral. La intención es ayudar a los clientes a pasar de las funciones no admitidas o heredadas a las opciones de AEM modernas y robustas. Estas herramientas son configurables, tienen en cuenta la configuración y son ampliables. Además, explore la sustitución de componentes personalizados por un conjunto de componentes principales estandarizados para acelerar el tiempo de desarrollo y reducir el coste de mantenimiento de sus aplicaciones."
->additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/component.html" text="Conversor de componentes"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=es" text="Componentes principales"
+>additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/component/about.html" text="Conversor de componentes"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="Componentes principales"
 
 * Utilice el [Conjunto de herramientas de modernización de AEM](https://opensource.adobe.com/aem-modernize-tools/) para reducir los esfuerzos necesarios para modernizar las implementaciones de AEM Sites. Estas herramientas incluyen la conversión de:
    * Cuadros de diálogo clásicos (ExtJS) a Coral
