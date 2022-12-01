@@ -3,9 +3,9 @@ title: ACV
 description: Página de ayuda de código del detector de patrones
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: e7096efc1d9da7f5aad5a5b353ba622c879cc4a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '348'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -27,13 +27,13 @@ El validador de contenido de Assets `ACV` identifica los nodos obligatorios que 
 Los subtipos se utilizan para identificar los diferentes tipos de información, como:
 
 * `missing.jcrcontent`: identifique las carpetas con nodos obligatorios que faltan en el repositorio. La identificación de cualquier contenido que falte en el repositorio ayuda a evitar que se rompan las funciones o los casos de uso.
-* `missing.original.rendition`: identifique los recursos con la representación original obligatoria que falta en el repositorio. Tenga en cuenta que la vista previa de las páginas del PDF no requiere la generación de subrecursos en AEMaaCS. Por lo tanto, para los recursos del PDF, se suprimen los subactivos de informes que no tengan representación original.
+* `missing.original.rendition`: identifique los archivos con la representación original obligatoria que falta en el repositorio. Tenga en cuenta que la previsualización de las páginas del PDF no requiere la generación de subarchivos en AEMaaCS. Por lo tanto, para los archivos del PDF, se suprimen los subarchivos de creación de informes que no tengan representación original.
 * `metadata.descendants.violation`: identifique los recursos con más de 100 descendientes bajo el nodo de metadatos del recurso en el repositorio.
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
 * Esto podría provocar un error en ciertas funciones de Assets que dependen de propiedades heredadas en Experience Manager as a Cloud Service.
-* AEM Assets depende de la existencia de la representación original. El procesamiento de recursos en Cloud Service irá en bucle si falta la representación original. La generación de subconjuntos no es compatible con AEMaaCS.
+* AEM Assets depende de la existencia de la representación original. El procesamiento de archivos en Cloud Service irá en bucle si falta la representación original. La generación de subarchivos no es compatible con AEMaaCS.
 * Un número elevado de descendientes bajo el nodo de metadatos puede ralentizar la carga de carpetas consistentes en recursos que infringen esto.
 
 ## Posibles soluciones {#solutions}
@@ -42,9 +42,9 @@ Los subtipos se utilizan para identificar los diferentes tipos de información, 
 >id="aemcloud_bpa_acv_guidance"
 >title="Directrices de implementación"
 >abstract="Adobe recomienda revisar la estructura del contenido para evitar flujos de trabajo rotos que dependen de propiedades heredadas. Póngase en contacto con el Servicio de atención al cliente para obtener ayuda."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
+>additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
 * Analice una carpeta si falta un nodo secundario. Cree los nodos manualmente si el número de carpetas es manejable; de lo contrario, utilice una secuencia de comandos.
 * Para los activos que no tengan la representación original, vuelva a cargarlos o elimínelos antes de migrar.
-* No se requiere ninguna acción para la representación original de los subrecursos que faltan.
-* Póngase en contacto con nuestro [Equipo de servicio de atención al cliente de Experience Manager](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o para solucionar problemas.
+* No se requiere ninguna acción para la representación original de los subarchivos que faltan.
+* Póngase en contacto con nuestro [Equipo de servicio de atención al cliente de Experience Manager](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o solucionar problemas.
