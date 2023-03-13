@@ -4,8 +4,8 @@ description: Página de ayuda de código del detector de patrones
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: bbeb7193e198a32a9bc966e1821b1058dbbc8c02
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
