@@ -2,7 +2,7 @@
 title: ACV
 description: Página de ayuda de código del detector de patrones
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: bbeb7193e198a32a9bc966e1821b1058dbbc8c02
+source-git-commit: 1aa0169c5ea5180500fd41c8074a9bf561151b62
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 100%
@@ -52,5 +52,5 @@ Los subtipos se utilizan para identificar los diferentes tipos de información, 
 * Para los activos que no tengan la representación original, vuelva a cargarlos o elimínelos antes de migrar.
 * No se requiere ninguna acción para la representación original de los subarchivos que faltan.
 * En caso de nodos de conflicto, deben resolverse o deben eliminarse antes de migrar a AEM as a Cloud Service.
-* Póngase en contacto con la Asistencia al cliente de Adobe si tiene previsto procesar muchos archivos PSD o PSB grandes. Es posible que el Experience Manager no procese archivos PSB de muy alta resolución que tengan más de 30000 x 23000 píxeles. Consulte la [documentación](https://experienceleague.adobe.com/docs/experience-manager-64/assets/extending/best-practices-for-imagemagick.html?lang=es).
+* Póngase en contacto con la Asistencia al cliente de Adobe si tiene previsto procesar muchos archivos PSD o PSB grandes. Es posible que el Experience Manager no procese archivos PSB de muy alta resolución que tengan más de 30000 x 23000 píxeles. Consulte la [documentación](https://experienceleague.adobe.com/docs/experience-manager-65/assets/extending/best-practices-for-imagemagick.html?lang=es).
 * Póngase en contacto con nuestro [Equipo de servicio de atención al cliente de Experience Manager](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o solucionar problemas.
