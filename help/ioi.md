@@ -3,7 +3,7 @@ title: IOI
 description: Página de ayuda de código del detector de patrones
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 100%
 
