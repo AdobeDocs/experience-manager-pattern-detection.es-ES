@@ -5,7 +5,7 @@ exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 9bc04f53b6c6c91a528f3c77ea1c702127a6b7df
 workflow-type: tm+mt
 source-wordcount: '667'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Los subtipos se utilizan para identificar los diferentes tipos de infracciones d
 * `maintenance.task.configuration`: la configuración de una determinada actividad de mantenimiento periódico.
 * `sling.commons.scheduler`: el uso de la API del Planificador de Sling Commons para una tarea programada.
 * `unsupported.asset.api`: el uso de la API del Administrador de recursos no admitidas en el código de la aplicación.
-* `javax.jcr.observation.EventListener`: El uso de Event Listener en el código de la aplicación.
+* `javax.jcr.observation.EventListener`: el uso del receptor de eventos en el código de la aplicación.
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
@@ -54,7 +54,7 @@ Los subtipos se utilizan para identificar los diferentes tipos de infracciones d
       * createAsset
 
 * `javax.jcr.observation.EventListener`
-   * Es posible que las aplicaciones que dependen del detector de eventos no funcionen del modo esperado porque no se puede garantizar la ejecución.
+   * Es posible que las aplicaciones que dependen del receptor de eventos no funcionen del modo esperado porque no se puede garantizar la ejecución.
 
 
 ## Posibles soluciones {#solutions}
@@ -82,5 +82,5 @@ Los subtipos se utilizan para identificar los diferentes tipos de infracciones d
    * En lugar de utilizar las API del Administrador de recursos no admitidas, utilice [aem-upload](https://github.com/adobe/aem-upload).
 
 * `javax.jcr.observation.EventListener`
-   * En lugar de utilizar el detector de eventos, se recomienda refactorizar el mecanismo de gestión de eventos a [Trabajos de Sling](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) ya que proporciona la garantía de procesamiento.
+   * En lugar de utilizar el receptor de eventos, se recomienda refactorizar el mecanismo de gestión de eventos a [Trabajos de Sling](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing), ya que proporciona la garantía de procesamiento.
 * Póngase en contacto con nuestro [Equipo de Soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o solucionar problemas.
