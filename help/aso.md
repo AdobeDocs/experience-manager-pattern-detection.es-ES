@@ -3,9 +3,9 @@ title: ASO
 description: Página de ayuda de código del detector de patrones
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 725a04c2d0c7f14673ac8cef9b62239ae3a5166c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '464'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Los subtipos se utilizan para identificar diferentes tipos de información:
 * `unprocessed.asset.count`: el número de activos sin procesar.
 * `vanity.url.count`: el número de direcciones URL personalizadas.
 * `index.size`: tamaño total del índice de Lucene migrable.
-* `workflow.count`: Número de flujos de trabajo de autor en estado de ejecución y obsoleto.
+* `workflow.count`: número de flujos de trabajo de autor en estado en ejecución y obsoleto.
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
@@ -48,7 +48,7 @@ Los subtipos se utilizan para identificar diferentes tipos de información:
 * El mayor número de URL mnemónicas (>1000) puede cargar Dispatcher y los servidores de publicación con consultas costosas.
 * La aplicación personalizada puede depender de productos o características no disponibles en AEM as a Cloud Service.
 * La actualización con funciones no compatibles puede provocar un error en la actualización y una aplicación no funcional.
-* Un número elevado de flujos de trabajo de autor en estado de ejecución o obsoleto podría degradar el rendimiento.
+* Un número elevado de flujos de trabajo de autor en estado en ejecución u obsoleto podría degradar el rendimiento.
 
 ## Posibles soluciones {#solutions}
 
