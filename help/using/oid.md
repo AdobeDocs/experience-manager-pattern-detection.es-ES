@@ -2,7 +2,7 @@
 title: OID
 description: Página de ayuda de código del detector de patrones
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: d3e518cf8ad53a2cd28d4eea7f9b75c672881507
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 100%
@@ -25,7 +25,7 @@ Definición de índice de Oak
 
 Los subtipos se utilizan para identificar los diferentes tipos de información:
 
-* `index.rule.violation`: una incompatibilidad de índice de Oak personalizada con AEM as a Cloud Service.
+* `index.rule.violation`: una incompatibilidad de índice de Oak personalizada con AEM as a Cloud Service
 * `standard.index.modification`: una modificación a un índice de Oak estándar.
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
