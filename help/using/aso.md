@@ -2,10 +2,10 @@
 title: ASO
 description: Página de ayuda de código del detector de patrones
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 4f5ac6b496ca1fb67ced52b4ec105034a869a2d0
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 100%
+source-wordcount: '488'
+ht-degree: 95%
 
 ---
 
@@ -49,6 +49,7 @@ Los subtipos se utilizan para identificar diferentes tipos de información:
 * La aplicación personalizada puede depender de productos o características no disponibles en AEM as a Cloud Service.
 * La actualización con funciones no compatibles puede provocar un error en la actualización y una aplicación no funcional.
 * Un número elevado de flujos de trabajo de autor en estado en ejecución u obsoleto podría degradar el rendimiento.
+* Las consultas lentas pueden degradar el rendimiento del sistema.
 
 ## Posibles soluciones {#solutions}
 
@@ -61,5 +62,6 @@ Los subtipos se utilizan para identificar diferentes tipos de información:
 * No se recomiendan las actualizaciones de AEM con productos o funciones no compatibles y es posible que no sean compatibles.
 * Los recursos no procesados deben procesarse y la propiedad dam:assetState del nodo jcr:content del recurso debe establecerse en “processed” o eliminarse del conjunto de migración antes de migrar a AEMaaCS.
 * Las URL mnemónicas podrían reemplazarse con las reescrituras de Apache.
+* Consulte la [documentación](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html) para solucionar problemas de consultas lentas.
 * Consulte las [notas de la versión](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=es) para obtener más información acerca de los cambios más recientes en AEM as a Cloud Service.
 * Póngase en contacto con nuestro [Equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o solucionar problemas.
