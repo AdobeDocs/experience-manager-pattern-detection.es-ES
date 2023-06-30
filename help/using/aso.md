@@ -5,7 +5,7 @@ exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: a899311c975efee180bc1d3bc3c7bca30d429a22
 workflow-type: tm+mt
 source-wordcount: '498'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
@@ -63,6 +63,6 @@ Los subtipos se utilizan para identificar diferentes tipos de información:
 * No se recomiendan las actualizaciones de AEM con productos o funciones no compatibles y es posible que no sean compatibles.
 * Los recursos no procesados deben procesarse y la propiedad dam:assetState del nodo jcr:content del recurso debe establecerse en “processed” o eliminarse del conjunto de migración antes de migrar a AEMaaCS.
 * Las URL mnemónicas podrían reemplazarse con las reescrituras de Apache.
-* Consulte la [documentación](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html) para solucionar problemas de consultas lentas.
+* Consulte la [documentación](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html?lang=es) para la resolución de problemas de consultas lentas.
 * Consulte las [notas de la versión](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=es) para obtener más información acerca de los cambios más recientes en AEM as a Cloud Service.
 * Póngase en contacto con nuestro [Equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o solucionar problemas.
