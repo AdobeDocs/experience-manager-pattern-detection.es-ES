@@ -2,9 +2,9 @@
 title: URS
 description: Página de ayuda de código del detector de patrones
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: d5b8b890502e9951acf01bc15fc1aa2e526ea9e5
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
+workflow-type: tm+mt
+source-wordcount: '419'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,6 @@ Estructura de repositorio no admitida
 
 * El código de producto AEM siempre se colocará en `/libs`, que no se debe sobrescribir con el código personalizado.
 * El código personalizado debe colocarse en `/apps`, `/content` y `/conf`.
-* AEM as a Cloud Service no admite nombres de nodo largos (>150 bytes).
 * Es muy recomendable que estas directrices se sigan para AEM as a Cloud Service.
 
 Los subtipos se utilizan para identificar tipos específicos de problemas de repositorios que deben solucionarse:
