@@ -2,10 +2,10 @@
 title: DG
 description: Página de ayuda de código del detector de patrones
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 65335d21a5035f023577c74fd073e0160a053932
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 100%
+source-wordcount: '699'
+ht-degree: 95%
 
 ---
 
@@ -32,6 +32,7 @@ Los subtipos se utilizan para identificar los diferentes tipos de infracciones d
 * `sling.commons.scheduler`: el uso de la API del Planificador de Sling Commons para una tarea programada.
 * `unsupported.asset.api`: el uso de la API del Administrador de recursos no admitidas en el código de la aplicación.
 * `javax.jcr.observation.EventListener`: el uso del receptor de eventos en el código de la aplicación.
+* `custom.guava.cache`: el uso de la caché de Guava en el código de la aplicación.
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
@@ -55,6 +56,9 @@ Los subtipos se utilizan para identificar los diferentes tipos de infracciones d
 
 * `javax.jcr.observation.EventListener`
    * Es posible que las aplicaciones que dependen del receptor de eventos no funcionen del modo esperado porque no se puede garantizar la ejecución.
+
+* `custom.guava.cache`
+   * AEM El uso de la caché de Guava puede causar problemas de rendimiento en los.
 
 
 ## Posibles soluciones {#solutions}
@@ -83,4 +87,7 @@ Los subtipos se utilizan para identificar los diferentes tipos de infracciones d
 
 * `javax.jcr.observation.EventListener`
    * En lugar de utilizar el receptor de eventos, se recomienda refactorizar el mecanismo de gestión de eventos a [Trabajos de Sling](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing), ya que proporciona la garantía de procesamiento.
+
+* `custom.guava.cache`
+   * AEM Las cachés, si es necesario, deben crearse fuera de la. Se puede considerar una solución de almacenamiento en caché externa.
 * Póngase en contacto con nuestro [Equipo de Soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o solucionar problemas.
