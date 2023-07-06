@@ -2,10 +2,10 @@
 title: ACV
 description: Página de ayuda de código del detector de patrones
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 1558502da1a63663ba239157bc1296e0a64e9616
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 100%
+source-wordcount: '518'
+ht-degree: 94%
 
 ---
 
@@ -31,6 +31,7 @@ Los subtipos se utilizan para identificar los diferentes tipos de información, 
 * `metadata.descendants.violation`: identifique los recursos con más de 100 descendientes bajo el nodo de metadatos del recurso en el repositorio.
 * `conflict.node`: identifique la presencia de nodos de conflicto en el repositorio bajo la ruta /content/dam/.
 * `psb.file.large`: identifique archivos PSB grandes (dc:format : application/vnd.3gpp.pic-bw-small) con un tamaño superior a 2 gigabytes.
+* `invalid.asset.name`: identifique los recursos con caracteres no válidos[* / : [\] | # % { } ? &amp;] en el nombre.
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
@@ -39,6 +40,7 @@ Los subtipos se utilizan para identificar los diferentes tipos de información, 
 * Un número elevado de descendientes bajo el nodo de metadatos puede ralentizar la carga de carpetas consistentes en recursos que infringen esto.
 * La presencia de nodos de conflicto podría provocar un error de ingesta en AEM as a Cloud Service.
 * Es posible que el Experience Manager no procese archivos PSB de muy alta resolución. Los clientes que utilizan ImageMagick para procesar archivos grandes pueden verse afectados por el rendimiento si no se realiza una evaluación comparativa adecuada del servidor de Experience Manager.
+* AEM Los caracteres no válidos en el nombre del recurso podrían provocar errores al migrar a la as a Cloud Service.
 
 ## Posibles soluciones {#solutions}
 
