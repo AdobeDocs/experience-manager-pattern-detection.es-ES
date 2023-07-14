@@ -4,7 +4,7 @@ description: Página de ayuda de código del detector de patrones
 source-git-commit: aa05ebcb54c6945a903c76add4f31e3279cd05b5
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 26%
+ht-degree: 30%
 
 ---
 
@@ -17,7 +17,7 @@ Problema de configuración incorrecta
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_mi_overview"
 >title="Problema de configuración incorrecta"
->abstract="AEM MI identifica los problemas de configuración en la instancia de"
+>abstract="MI identifica los problemas de configuración en la instancia de AEM"
 
 `MI`  AEM Problema de configuración incorrecta identifica problemas de configuración en la instancia de.
 
