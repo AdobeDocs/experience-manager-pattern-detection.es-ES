@@ -3,9 +3,9 @@ title: CDW
 description: Página de ayuda de código del detector de patrones
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
 source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '159'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Widget de diálogo personalizado
 >title="Widget de diálogo personalizado"
 >abstract="CDW identifica los widgets de diálogo personalizados que deben actualizarse para que sean compatibles con AEM as a Cloud Service."
 
-`CDW`  Los widgets de diálogo personalizados identifican los widgets de diálogo personalizados clásicos. Se deben actualizar para que sean compatibles con AEM as a Cloud Service.
+`CDW` Los widgets de diálogo personalizados identifican los widgets de diálogo clásicos personalizados. Se deben actualizar para que sean compatibles con AEM as a Cloud Service.
 
-Los subtipos se utilizan para identificar la información, como:
+Los subtipos se utilizan para identificar los diferentes tipos de información, como:
 
 * `custom.classic.widget`: identifique los widgets de diálogo personalizados basados en ExtJs.
 
