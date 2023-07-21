@@ -4,7 +4,7 @@ description: Página de ayuda de código del detector de patrones
 source-git-commit: aa05ebcb54c6945a903c76add4f31e3279cd05b5
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
@@ -19,19 +19,19 @@ Problema de configuración incorrecta
 >title="Problema de configuración incorrecta"
 >abstract="MI identifica los problemas de configuración en la instancia de AEM"
 
-`MI`  AEM Problema de configuración incorrecta identifica problemas de configuración en la instancia de.
+`MI` Problema de configuración incorrecta identifica problemas de configuración en la instancia de AEM.
 
 Los subtipos se utilizan para identificar los diferentes tipos de información, como:
 
-* `sling.job.max.parallel`: identifique los trabajos de sling en los que la configuración paralela máxima está establecida en -1.
+* `sling.job.max.parallel`: identifique los trabajos de Sling en los que la configuración paralela máxima está establecida en -1.
 * `missing.maintenance.configuration`: identifique las configuraciones de tareas de mantenimiento que faltan.
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
 * `sling.job.max.parallel`
-   * El valor -1 se sustituye por el número de procesadores disponibles. AEM Esto puede causar problemas de rendimiento en la instancia de la.
+   * Un valor -1 se sustituye por el número de procesadores disponibles. Esto puede causar problemas de rendimiento en la instancia de AEM.
 * `missing.maintenance.configuration`
-   * La falta de configuraciones de tareas de mantenimiento puede causar pérdida de rendimiento o daños en la instancia.
+   * La falta de configuraciones de tareas de mantenimiento puede causar pérdida de rendimiento o de corrupción en la instancia.
 
 ## Posibles soluciones {#solutions}
 
@@ -44,9 +44,9 @@ Los subtipos se utilizan para identificar los diferentes tipos de información, 
 * `sling.job.max.parallel`
    * Es aconsejable establecer el valor en 0,5 para disponer de la mitad de los procesadores disponibles.
 * `missing.maintenance.configuration`
-   * Limpieza de revisión: consulte [Limpieza de revisión](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html). La parte importante con respecto a la configuración es esta: [Limpieza de revisión: configurar cola y compactación completa](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html#how-to-configure-full-and-tail-compaction).
-   * Limpieza de binarios de Lucene: consulte [Panel de operaciones - Limpieza de binarios de Lucene](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-dashboard.html#lucene-binaries-cleanup).
-   * Recopilación de basura del almacén de datos: consulte [Recopilación de residuos del almacén de datos](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/data-store-garbage-collection.html).
-   * Purga del flujo de trabajo: consulte [Depuración regular de instancias de flujo de trabajo](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/workflows-administering.html?lang=es#regular-purging-of-workflow-instances).
-   * Tarea de mantenimiento de AuditLog: consulte [Mantenimiento del registro de auditoría](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-audit-log.html).
+   * Limpieza de revisión: consulte [Limpieza de revisión](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=es). La parte importante con respecto a la configuración es esta: [Limpieza de revisión: configurar cola y compactación completa](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=es#how-to-configure-full-and-tail-compaction).
+   * Limpieza de binarios de Lucene: consulte [Panel de operaciones - Limpieza de binarios de Lucene](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-dashboard.html?lang=es#lucene-binaries-cleanup).
+   * Recopilación de residuos del almacén de datos: consulte [Recopilación de residuos del almacén de datos](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/data-store-garbage-collection.html?lang=es).
+   * Depuración del flujo de trabajo: consulte [Depuración regular de instancias de flujo de trabajo](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/workflows-administering.html?lang=es#regular-purging-of-workflow-instances).
+   * Tarea de mantenimiento de AuditLog: consulte [Mantenimiento del registro de auditoría](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-audit-log.html?lang=es).
 * Póngase en contacto con nuestro [Equipo de servicio de atención al cliente de Experience Manager](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o solucionar problemas.
