@@ -1,11 +1,11 @@
 ---
 title: CTEM
-description: Página de ayuda de código del detector de patrones
+description: Página de ayuda de código de Pattern Detector.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 100%
+source-wordcount: '250'
+ht-degree: 93%
 
 ---
 
@@ -49,4 +49,4 @@ Las plantillas se identifican con un valor de tipo principal &quot;cq:Template&q
 
 * Aproveche las [Herramientas de modernización AEM](https://opensource.adobe.com/aem-modernize-tools/) para migrar plantillas estáticas a plantillas editables.
 * Para obtener más información sobre las plantillas editables, consulte [Plantillas](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html?lang=es).
-* Póngase en contacto con nuestro [Equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o solucionar problemas.
+* Póngase en contacto con [AEM Equipo de soporte](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para aclaraciones o para que se aborden las preocupaciones.

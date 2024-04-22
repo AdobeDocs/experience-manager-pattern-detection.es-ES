@@ -1,11 +1,11 @@
 ---
 title: DG
-description: Página de ayuda de código del detector de patrones
+description: Página de ayuda de código de Pattern Detector.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 65335d21a5035f023577c74fd073e0160a053932
-workflow-type: ht
-source-wordcount: '699'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 94%
 
 ---
 
@@ -72,7 +72,7 @@ Los subtipos se utilizan para identificar los diferentes tipos de infracciones d
 
 * `java.io.inputstream`
    * Utilice un método de carga binario directo en el que el binario se añada directamente al almacén de datos.
-   * Para casos de uso de activos, utilice [aem-upload](https://github.com/adobe/aem-upload). Para otros tipos de binarios, la lógica de carga personalizada se puede modelar según este mismo patrón.
+   * Para casos de uso de recursos, consulte [aem-upload](https://github.com/adobe/aem-upload). Para otros tipos de binarios, la lógica de carga personalizada se puede modelar según este mismo patrón.
 
 * `maintenance.task.configuration`
    * Revise la documentación [Tarea de mantenimiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html?lang=es) de AEM as a Cloud Service.
@@ -83,11 +83,11 @@ Los subtipos se utilizan para identificar los diferentes tipos de infracciones d
    * Si es posible, deben evitarse los trabajos de larga duración.
 
 * `unsupported.asset.api`
-   * En lugar de utilizar las API del Administrador de recursos no admitidas, utilice [aem-upload](https://github.com/adobe/aem-upload).
+   * En lugar de utilizar las API del Administrador de recursos no admitidas, consulte [aem-upload](https://github.com/adobe/aem-upload).
 
 * `javax.jcr.observation.EventListener`
    * En lugar de utilizar el receptor de eventos, se recomienda refactorizar el mecanismo de gestión de eventos a [Trabajos de Sling](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing), ya que proporciona la garantía de procesamiento.
 
 * `custom.guava.cache`
    * Las cachés, si es necesario, deben crearse fuera de AEM. Se puede considerar una solución de almacenamiento en caché externa.
-* Póngase en contacto con nuestro [Equipo de Soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o solucionar problemas.
+* Póngase en contacto con [AEM Equipo de soporte](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para aclaraciones o para que se aborden las preocupaciones.

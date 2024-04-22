@@ -1,11 +1,11 @@
 ---
 title: NCC
-description: Página de ayuda de código del detector de patrones
+description: Página de ayuda de código de Pattern Detector.
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 100%
+source-wordcount: '193'
+ht-degree: 91%
 
 ---
 
@@ -40,4 +40,4 @@ Cambios no compatibles
 
 * Superponga o haga referencia únicamente a componentes de Sling compatibles.
 * Considere la posibilidad de adaptar los recursos procedentes de `/libs` o paquetes después de una actualización AEM.
-* Póngase en contacto con nuestro [Equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o solucionar problemas.
+* Póngase en contacto con [AEM Equipo de soporte](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para aclaraciones o para que se aborden las preocupaciones.

@@ -1,10 +1,11 @@
 ---
 title: MI
-description: Página de ayuda de código del detector de patrones
-source-git-commit: aa05ebcb54c6945a903c76add4f31e3279cd05b5
+description: Página de ayuda de código de Pattern Detector.
+exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 100%
+source-wordcount: '197'
+ht-degree: 54%
 
 ---
 
@@ -19,7 +20,7 @@ Problema de configuración incorrecta
 >title="Problema de configuración incorrecta"
 >abstract="MI identifica los problemas de configuración en la instancia de AEM"
 
-`MI` Problema de configuración incorrecta identifica problemas de configuración en la instancia de AEM.
+AEM Problema de configuración incorrecta de MI identifica problemas de configuración en la instancia de.
 
 Los subtipos se utilizan para identificar los diferentes tipos de información, como:
 
@@ -42,11 +43,11 @@ Los subtipos se utilizan para identificar los diferentes tipos de información, 
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
 * `sling.job.max.parallel`
-   * Es aconsejable establecer el valor en 0,5 para disponer de la mitad de los procesadores disponibles.
+   * El Adobe recomienda establecer el valor en 0,5 para aprovechar la mitad de los procesadores disponibles.
 * `missing.maintenance.configuration`
-   * Limpieza de revisión: consulte [Limpieza de revisión](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=es). La parte importante con respecto a la configuración es esta: [Limpieza de revisión: configurar cola y compactación completa](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=es#how-to-configure-full-and-tail-compaction).
-   * Limpieza de binarios de Lucene: consulte [Panel de operaciones - Limpieza de binarios de Lucene](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-dashboard.html?lang=es#lucene-binaries-cleanup).
-   * Recopilación de residuos del almacén de datos: consulte [Recopilación de residuos del almacén de datos](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/data-store-garbage-collection.html?lang=es).
-   * Depuración del flujo de trabajo: consulte [Depuración regular de instancias de flujo de trabajo](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/workflows-administering.html?lang=es#regular-purging-of-workflow-instances).
-   * Tarea de mantenimiento de AuditLog: consulte [Mantenimiento del registro de auditoría](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-audit-log.html?lang=es).
-* Póngase en contacto con nuestro [Equipo de servicio de atención al cliente de Experience Manager](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o solucionar problemas.
+   * Limpieza de revisión: consulte [Limpieza de revisión](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup). La parte importante con respecto a la configuración es esta: [Limpieza de revisión: configurar cola y compactación completa](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup).
+   * Limpieza de binarios de Lucene: consulte [Panel de operaciones - Limpieza de binarios de Lucene](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup).
+   * Recopilación de residuos del almacén de datos: consulte [Recopilación de residuos del almacén de datos](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection).
+   * Depuración de flujo de trabajo: consulte [Depuración regular de instancias de flujo de trabajo](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances).
+   * Tarea de mantenimiento de AuditLog: consulte [Mantenimiento del registro de auditoría](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/operations-audit-log).
+* Póngase en contacto con [Equipo de atención al cliente de Experience Manager](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o solucionar problemas.

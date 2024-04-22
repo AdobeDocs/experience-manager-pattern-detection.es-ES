@@ -1,11 +1,11 @@
 ---
 title: OCU
-description: Página de ayuda de código del detector de patrones
+description: Página de ayuda de código de Pattern Detector.
 exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 100%
+source-wordcount: '276'
+ht-degree: 93%
 
 ---
 
@@ -41,4 +41,4 @@ Como las versiones anteriores no están instaladas de forma predeterminada, es p
 
 * A corto plazo: la instalación del paquete de compatibilidad podría ayudar.
 * A largo plazo: adapte el código de cliente para utilizar la versión más reciente de componentes de AEM o API.
-* Póngase en contacto con nuestro [Equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o solucionar problemas.
+* Póngase en contacto con [AEM Equipo de soporte](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para aclaraciones o para que se aborden las preocupaciones.

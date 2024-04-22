@@ -1,11 +1,11 @@
 ---
 title: IOI
-description: Página de ayuda de código del detector de patrones
+description: Página de ayuda de código de Pattern Detector.
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '222'
+ht-degree: 92%
 
 ---
 
@@ -39,4 +39,4 @@ Algunos de ellos son utilizados por `com.adobe.granite.repository`, que configur
 
 * Utilice la API de recursos de Sling (o la API de JCR) en lugar del acceso de bajo nivel.
 * Evite depender de paquetes internos que no formen parte de ninguna API pública o SPI.
-* Póngase en contacto con nuestro [Equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o solucionar problemas.
+* Póngase en contacto con [AEM Equipo de soporte](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para aclaraciones o para que se aborden las preocupaciones.

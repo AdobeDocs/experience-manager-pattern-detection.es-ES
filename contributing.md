@@ -1,8 +1,8 @@
 ---
-source-git-commit: 2391ad7851d4e6634a7bacd684b08db44a9c78e8
-workflow-type: ht
-source-wordcount: '530'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '515'
+ht-degree: 90%
 
 ---
 # Contribución a la documentación de Adobe Experience Manager
@@ -13,11 +13,11 @@ Este archivo describe cómo puede contribuir, así como las directrices que debe
 
 ## Código de conducta de código abierto de Adobe
 
-Este proyecto ha adoptado el [Código de conducta de código abierto de Adobe](code-of-conduct.md). Al contribuir con la documentación de AEM, usted acepta adherirse a este código de conducta. Cualquier actitud inaceptable se debe notificar a través del siguiente correo electrónico: [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com)
+Este proyecto ha adoptado el [Código de conducta de código abierto de Adobe](code-of-conduct.md). Al contribuir con la documentación de AEM, usted acepta adherirse a este código de conducta. Informar de comportamientos inaceptables a [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Directrices para la contribución
 
-Si bien acogemos con beneplácito cualquier contribución para mejorar la documentación de AEM, pedimos que las contribuciones se ajusten a determinadas directrices y normas, siempre que sea posible. Consulte las [Directrices para contribuir a la documentación de AEM](guidelines.md) para obtener más información.
+Si bien acogemos con beneplácito cualquier contribución para mejorar la documentación de AEM, pedimos que las contribuciones se ajusten a determinadas directrices y normas, siempre que sea posible. Revise la [AEM Directrices para contribuir a la documentación de la](guidelines.md) para obtener más información.
 
 ## Contribuir
 
@@ -34,7 +34,7 @@ El método que elija dependerá de la comodidad con la que edite la documentaci�
 
 ### Crear una incidencia {#create-an-issue}
 
-¿Tiene una sugerencia, una observación sobre los documentos actuales o una pregunta sobre cómo se describe algo? Entonces cree una incidencia. Las incidencias también son ideales si tiene algo que aportar, pero no se siente cómodo editando los documentos o haciendo una solicitud de extracción usted mismo.
+¿Tiene una sugerencia, una observación sobre los documentos actuales o una pregunta sobre cómo se describe algo? A continuación, cree una incidencia. Las incidencias también son ideales si tiene algo que aportar, pero no se siente cómodo editando los documentos o haciendo una solicitud de extracción usted mismo.
 
 Las incidencias permiten describir fácilmente su idea para mejorar los documentos y un miembro del equipo de documentación de AEM se encargará de revisarla. Haga clic en el vínculo **Registrar una incidencia** en la parte superior del panel de navegación derecho en cualquier página para crear una incidencia.
 
@@ -52,7 +52,7 @@ Consulte el siguiente vídeo para obtener una descripción general rápida de c�
 
 ### Contribuciones de empleados de Adobe
 
-Si usted es un empleado de Adobe y tiene una contribución que hacer, utilice la organización `AdobeDocs` en el Git corporativo.
+Si usted es un empleado de Adobe y tiene una contribución, utilice el `AdobeDocs` org en el git corporativo.
 
 Por supuesto, estamos encantados de recibir cualquier contribución y revisaremos su contribución si se realiza en el repositorio público, sin embargo, las solicitudes de extracción de los empleados de Adobe son más fáciles de procesar y se pueden aprobar más rápido en el repositorio corporativo. Asegúrese de que cualquier información de propiedad solo se analiza en el repositorio corporativo.
 
