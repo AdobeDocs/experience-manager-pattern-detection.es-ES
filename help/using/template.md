@@ -1,10 +1,10 @@
 ---
 title: PLANTILLA
 description: Plantilla para la página de ayuda de código de Pattern Detector.
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 83%
+source-wordcount: '119'
+ht-degree: 38%
 
 ---
 
@@ -15,12 +15,12 @@ Plantilla
 
 ## Fondo {#background}
 
-Proporcione una descripción del problema que representa este código.
+Proporcione una descripción de uno o más problemas que representa este código.
 Responda a la pregunta: “¿Qué es esto?”
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
-Proporcione una descripción de las posibles implicaciones y riesgos que surgirán si no se hace nada al respecto.
+Proporcione una descripción de las posibles implicaciones y riesgos que pueden surgir si no se hace nada al respecto.
 Responda a la pregunta: “¿Por qué debería importarme?”
 
 * Implicación o riesgo n.º 1
@@ -28,7 +28,7 @@ Responda a la pregunta: “¿Por qué debería importarme?”
 
 ## Posibles soluciones {#solutions}
 
-Proporcione una descripción de los posibles pasos que mitigarán o resolverán el problema. Evite duplicar la información que se puede encontrar en cualquier otra parte: consulte la documentación pública de Adobe siempre que sea posible.
+Proporcione una descripción de los posibles pasos que mitigan o resuelvan el problema. Evite duplicar la información que se puede encontrar en cualquier otra parte: consulte la documentación de Adobe público siempre que sea posible.
 Responda a la pregunta: “¿Qué puedo hacer al respecto?”
 
 * Posible solución n.º 1

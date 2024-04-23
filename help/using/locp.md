@@ -2,10 +2,10 @@
 title: LOCP
 description: Página de ayuda de código de Pattern Detector.
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 61%
+source-wordcount: '170'
+ht-degree: 57%
 
 ---
 
@@ -34,7 +34,7 @@ LOCP identifica la detección de un paquete personalizado que entrega contenido 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_guidance"
 >title="Directrices de implementación"
->abstract="Los clientes deben revisar su código personalizado y sus paquetes para identificar si el contenido se entrega a /libs y refactorizarlo para depender de la superposición del contenido en /apps y hacer que sea compatible con AEM as a Cloud Service. Póngase en contacto con la asistencia de Adobe para obtener ayuda y aclaraciones"
+>abstract="Los clientes deben revisar su código personalizado y sus paquetes para identificar si el contenido se entrega a /libs y refactorizarlo para depender de la superposición del contenido en /apps y hacer que sea compatible con AEM as a Cloud Service. Póngase en contacto con el Soporte técnico de Adobe para obtener ayuda o aclaraciones."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Superposiciones"
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 

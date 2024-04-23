@@ -2,10 +2,10 @@
 title: NCC
 description: Página de ayuda de código de Pattern Detector.
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 91%
+source-wordcount: '194'
+ht-degree: 65%
 
 ---
 
@@ -19,10 +19,10 @@ Cambios no compatibles
 >id="aemcloud_bpa_ncc_overview"
 >title="Cambios no compatibles"
 >abstract="NCC identifica la situación en la que algunos nodos o paquetes JCR se cambian de una manera no compatible. Es posible que el cliente no esté al tanto de este cambio antes de una actualización."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=es" text="Cambios importantes en AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=es" text="Notas de la versión para AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Cambios importantes en AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Notas de la versión para AEM as a Cloud Service"
 
-`NCC` identifica la situación en la que algunos nodos o paquetes JCR se cambian de una manera no compatible. Es posible que el cliente no esté al tanto de este cambio antes de una actualización.
+NCC identifica la situación en la que algunos nodos o paquetes JCR se cambian de una manera no compatible. Es posible que el cliente no esté al tanto de este cambio antes de una actualización.
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
@@ -34,8 +34,8 @@ Cambios no compatibles
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ncc_guidance"
 >title="Directrices de implementación"
->abstract="Una práctica recomendada es revisar el código personalizado y asegurarse de que solo se superponen o se hace referencia a los componentes de Sling compatibles. Póngase en contacto con la asistencia de Adobe para obtener ayuda y aclaraciones"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html?lang=es#platform" text="Superposiciones"
+>abstract="Una práctica recomendada es revisar el código personalizado y asegurarse de que solo se superponen o hacen referencia a los componentes de Sling compatibles. Póngase en contacto con el Soporte técnico de Adobe para obtener ayuda o aclaraciones."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/overlays#platform" text="Superposiciones"
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
 * Superponga o haga referencia únicamente a componentes de Sling compatibles.

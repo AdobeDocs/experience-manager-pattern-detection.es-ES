@@ -2,10 +2,10 @@
 title: OAUI
 description: Página de ayuda de código de Pattern Detector.
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 47%
+source-wordcount: '229'
+ht-degree: 44%
 
 ---
 
@@ -36,7 +36,7 @@ Un ejemplo es: `/home/users/ims/0001/R80w6XaUCBq3jHE47xDN/oauth`.
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_guidance"
 >title="Directrices de implementación"
->abstract="AEM Los usuarios externos configurados con OAuth no pueden iniciar sesión en instancias de autor/publicación hasta que se hayan reconfigurado para ser compatibles con las instancias as a Cloud Service de la aplicación de creación de informes (o de publicación). AEM as a Cloud Service ofrece compatibilidad con la autenticación IMS solo para usuarios autores, administradores y desarrolladores, así como integración basada en SAML para los entornos de publicación. Póngase en contacto con la asistencia de Adobe para obtener ayuda y aclaraciones."
+>abstract="AEM Los usuarios externos configurados con OAuth no pueden iniciar sesión en instancias de autor/publicación hasta que se hayan reconfigurado para ser compatibles con las instancias as a Cloud Service de la aplicación de creación de informes (o de publicación). AEM as a Cloud Service ofrece compatibilidad con la autenticación IMS solo para usuarios autores, administradores y desarrolladores, así como integración basada en SAML para los entornos de publicación. Póngase en contacto con el Soporte técnico de Adobe para obtener ayuda o aclaraciones."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support" text="Compatibilidad con IMS: AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier#integration-with-an-idp" text="Integración de SAML: publicación"
 

@@ -2,10 +2,10 @@
 title: FORM
 description: Página de ayuda de código de Pattern Detector.
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 99%
+source-wordcount: '981'
+ht-degree: 98%
 
 ---
 
@@ -67,7 +67,7 @@ Aborde los siguientes problemas, antes de migrar a [!DNL Adobe Experience Manage
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_guidance"
 >title="Directrices de implementación"
->abstract="La información expuesta a través del código Forms puede proporcionar instrucciones acerca de los reemplazos y otras acciones necesarias para hacer algunas funciones y API compatibles con Cloud Service. Póngase en contacto con la asistencia de Adobe para obtener ayuda y aclaraciones"
+>abstract="La información expuesta a través del código Forms puede proporcionar instrucciones acerca de los reemplazos y otras acciones necesarias para hacer algunas funciones y API compatibles con Cloud Service. Póngase en contacto con el Soporte técnico de Adobe para obtener ayuda o aclaraciones."
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
 * Use la utilidad de migración para convertir todas las secuencias de comandos de reglas del entorno en funciones reutilizables. Puede emplear las funciones reutilizables con el editor de reglas visuales para seguir obteniendo los resultados con secuencias de comandos de reglas. (CODE_EDITOR)

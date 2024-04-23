@@ -2,10 +2,10 @@
 title: PCX
 description: Página de ayuda de código de Pattern Detector.
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 58%
+source-wordcount: '199'
+ht-degree: 54%
 
 ---
 
@@ -38,7 +38,7 @@ Los subtipos se utilizan para identificar los diferentes tipos de información:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
 >title="Directrices de implementación"
->abstract="Una práctica recomendada es revisar la estructura del contenido para reducir la complejidad de la página, lo que a su vez ayudaría a mejorar el rendimiento del procesamiento de páginas. Póngase en contacto con la asistencia de Adobe para obtener ayuda y aclaraciones."
+>abstract="Una práctica recomendada es revisar la estructura del contenido para reducir la complejidad de la página, lo que a su vez ayudaría a mejorar el rendimiento del procesamiento de páginas. Póngase en contacto con el Soporte técnico de Adobe para obtener ayuda o aclaraciones."
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
 * Reduzca el número total de nodos dentro de una página haciendo la siguiente acción:

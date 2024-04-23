@@ -2,10 +2,10 @@
 title: UMI
 description: Página de ayuda de código de Pattern Detector.
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 43%
+source-wordcount: '352'
+ht-degree: 41%
 
 ---
 
@@ -47,7 +47,7 @@ Se comprueban las siguientes configuraciones para su modificación:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_umi_guidance"
 >title="Directrices de implementación"
->abstract="Una práctica recomendada es revisar las configuraciones actuales y revertir los cambios realizados en las configuraciones mencionadas para evitar cualquier problema de actualización futuro. Póngase en contacto con la asistencia de Adobe para obtener ayuda y aclaraciones."
+>abstract="Una práctica recomendada es revisar las configuraciones actuales y revertir los cambios realizados en las configuraciones mencionadas para evitar cualquier problema de actualización futuro. Póngase en contacto con el Soporte técnico de Adobe para obtener ayuda o aclaraciones."
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
 * No cambie ni elimine las cuatro configuraciones mencionadas anteriormente.
