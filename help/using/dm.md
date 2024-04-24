@@ -2,9 +2,9 @@
 title: DM
 description: Obtenga información sobre cómo el código Pattern Detector identifica el uso de AEM Assets - Dynamic Media.
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '173'
 ht-degree: 52%
 
 ---
@@ -22,7 +22,7 @@ Dynamic Media
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="Desarrollo de AEM: directrices y prácticas recomendadas"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Directrices de desarrollo de AEM as a Cloud Service"
 
-`DM` (Dynamic Media) identifica el uso de AEM Assets Dynamic Media. El modo Dynamic Media se detecta mediante el modo de ejecución.
+`DM` (Dynamic Media) Identifica el uso de AEM Assets Dynamic Media. El modo Dynamic Media se detecta mediante el modo de ejecución.
 
 Se utiliza un subtipo con este código:
 
@@ -48,4 +48,4 @@ Se utiliza un subtipo con este código:
 * `dynamic.media.runmode`
    * Encontrará más información en [Configuración de Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media).
 
-* Póngase en contacto con el [AEM Equipo de soporte](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) si necesita aclaraciones o si tiene alguna duda.
+* Póngase en contacto con [AEM Equipo de soporte](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) si necesita aclaraciones o si tiene alguna duda.

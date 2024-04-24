@@ -2,9 +2,9 @@
 title: MSM
 description: Página de ayuda de código de Pattern Detector.
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '145'
 ht-degree: 51%
 
 ---
@@ -21,7 +21,7 @@ Administrador de varios sitios
 >abstract="AEM MSM identifica la información general acerca de la función Administrador de varios sitios de. Esta información se proporciona para ayudar a caracterizar el sistema."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Cambios importantes en AEM as a Cloud Service"
 
-AEM MSM identifica la información general acerca de la función Administrador de varios sitios de. Esta información se proporciona para ayudar a caracterizar el sistema.
+`MSM`  AEM Identifica información general acerca de la característica Administrador de varios sitios para la creación de informes de varios sitios Esta información se proporciona para ayudar a caracterizar el sistema.
 
 Los subtipos se utilizan para identificar diferentes tipos de información:
 

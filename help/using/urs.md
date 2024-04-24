@@ -2,10 +2,10 @@
 title: URS
 description: Página de ayuda de código de Pattern Detector.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 55%
+source-wordcount: '377'
+ht-degree: 53%
 
 ---
 
@@ -21,7 +21,7 @@ Estructura de repositorio no admitida
 
 ## Fondo {#background}
 
-URS identifica casos de características de nodo y estructura de repositorio no admitidas. A partir del AEM 6.4, se han previsto directrices para la reestructuración del contenido del repositorio. Al delinear claramente las jerarquías para el código de producto AEM y el código de cliente y evitar conflictos entre ellos, el contenido se está reestructurando fuera de `/etc` a otras carpetas del repositorio, siguiendo las siguientes reglas de alto nivel:
+`URS`  Identifica casos de características de nodo y estructura de repositorio no admitidas. A partir del AEM 6.4, se han previsto directrices para la reestructuración del contenido del repositorio. Al delinear claramente las jerarquías para el código de producto AEM y el código de cliente y evitar conflictos entre ellos, el contenido se está reestructurando fuera de `/etc` a otras carpetas del repositorio, siguiendo las siguientes reglas de alto nivel:
 
 * AEM El código de producto siempre se coloca en `/libs`, que no se deben sobrescribir con el código personalizado.
 * El código personalizado debe colocarse en `/apps`, `/content`, y `/conf`.

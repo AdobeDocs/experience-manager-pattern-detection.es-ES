@@ -2,10 +2,10 @@
 title: ACV
 description: Página de ayuda de código de Pattern Detector.
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 71%
+source-wordcount: '478'
+ht-degree: 67%
 
 ---
 
@@ -22,7 +22,7 @@ Validador de contenido de Assets
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview" text="Cambios importantes: Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service: notas de la versión"
 
-El validador de contenido de ACV Assets identifica los nodos obligatorios que faltan en el contenido del recurso, así como los posibles incumplimientos. Esto podría provocar un error en ciertas funciones de Assets en Experience Manager as a Cloud Service.
+`ACV` (Validador de contenido de Assets) Identifica los nodos obligatorios que faltan en el contenido del recurso, así como los posibles incumplimientos. Esto podría provocar un error en ciertas funciones de Assets en Experience Manager as a Cloud Service.
 
 Los subtipos se utilizan para identificar los diferentes tipos de información, como:
 
@@ -54,5 +54,5 @@ Los subtipos se utilizan para identificar los diferentes tipos de información, 
 * Para los activos que no tengan la representación original, vuelva a cargarlos o elimínelos antes de migrar.
 * No se requiere ninguna acción para la representación original de los subarchivos que faltan.
 * AEM En hay nodos conflictivos, que deben resolverse o eliminarse antes de migrar a la as a Cloud Service de la.
-* Póngase en contacto con la Asistencia al cliente de Adobe si tiene previsto procesar muchos archivos PSD o PSB grandes. El Experience Manager no puede procesar archivos PSB de alta resolución que tengan más de 30000 x 23000 píxeles. Consulte [documentación](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick).
+* Póngase en contacto con Asistencia al cliente de Adobe si planea procesar muchos archivos PSD o PSB de gran tamaño. El Experience Manager no puede procesar archivos PSB de alta resolución que tengan más de 30000 x 23000 píxeles. Consulte [documentación](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick).
 * Póngase en contacto con [Equipo de atención al cliente de Experience Manager](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o solucionar problemas.

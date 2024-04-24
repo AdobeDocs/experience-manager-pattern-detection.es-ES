@@ -2,10 +2,10 @@
 title: INS
 description: Página de ayuda de código de Pattern Detector.
 exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 83%
+source-wordcount: '107'
+ht-degree: 60%
 
 ---
 
@@ -20,7 +20,7 @@ Espacio de nombres no válido
 >title="Espacio de nombres no válido"
 >abstract="INS identifica los problemas de espacio de nombres en la instancia de AEM"
 
-`INS` Espacio de nombres no válido identifica problemas de espacio de nombres en la instancia de AEM.
+`INS`  AEM (Área de nombres no válida) Identifica problemas de área de nombres en la instancia de.
 
 Los subtipos se utilizan para identificar los diferentes tipos de información, como:
 
@@ -28,7 +28,7 @@ Los subtipos se utilizan para identificar los diferentes tipos de información, 
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
-* No se puede replicar contenido (en varios niveles) ni copiar contenido (en varios niveles - a través de `/crx/packMgr` o una copia de contenido).
+* No se puede replicar el contenido (en todos los niveles) ni copiarlo (en todos los niveles) `env`, a través de `/crx/packMgr`o Copia de contenido).
 
 ## Posibles soluciones {#solutions}
 

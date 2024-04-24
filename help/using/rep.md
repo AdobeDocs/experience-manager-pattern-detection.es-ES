@@ -2,10 +2,10 @@
 title: REP
 description: Página de ayuda de código de Pattern Detector.
 exl-id: e788deba-a301-404f-8e90-51f721409e69
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 74%
+source-wordcount: '414'
+ht-degree: 73%
 
 ---
 
@@ -22,7 +22,7 @@ Agente de replicación
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents" text="Cambios importantes en AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents" text="Directrices de desarrollo"
 
-REP identifica los agentes de replicación habilitados. Se informa de ellos debido a la posibilidad de que se produzcan problemas que deben abordarse al actualizar a AEM as a Cloud Service.
+`REP`  Identifica los agentes de replicación habilitados. Se informa de ellos debido a la posibilidad de que se produzcan problemas que deben abordarse al actualizar a AEM as a Cloud Service.
 
 Los subtipos se utilizan para identificar diferentes tipos de información:
 

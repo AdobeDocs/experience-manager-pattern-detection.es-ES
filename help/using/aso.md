@@ -2,10 +2,10 @@
 title: ASO
 description: Página de ayuda de código de Pattern Detector.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 52%
+source-wordcount: '473'
+ht-degree: 53%
 
 ---
 
@@ -21,7 +21,7 @@ Información general del sistema AEM
 >abstract="El código ASO identifica la información general acerca de la instancia de AEM. Cada búsqueda proporciona un valor de un tipo particular de información del sistema que puede ayudarle en la planificación de la migración y en el esfuerzo de refactorización."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service: notas de la versión"
 
-AEM ASO identifica la información general acerca de la instancia de. Cada búsqueda proporciona un valor de un tipo particular de información del sistema.
+`ASO` AEM Identifica información general acerca de la instancia de. Cada búsqueda proporciona un valor de un tipo particular de información del sistema.
 
 Los subtipos se utilizan para identificar diferentes tipos de información:
 

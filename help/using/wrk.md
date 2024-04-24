@@ -2,9 +2,9 @@
 title: WRK
 description: Página de ayuda de código de Pattern Detector.
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '321'
 ht-degree: 62%
 
 ---
@@ -21,7 +21,7 @@ Flujo de trabajo
 >abstract="El código WRK identifica un hallazgo relacionado con un modelo de flujo de trabajo o un lanzador. Estos se registran porque los modelos de flujo de trabajo de recursos personalizados deben migrarse al actualizar a AEM as a Cloud Service. Con AEM as a Cloud Service, el procesamiento de recursos ahora se realiza mediante microservicios de recursos."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview" text="Microservicios de recursos"
 
-WRK identifica un hallazgo relacionado con un modelo de flujo de trabajo o un lanzador. Estos se registran porque los modelos de flujo de trabajo de recursos personalizados deben migrarse al actualizar a AEM as a Cloud Service.
+`WRK`  Identifica un hallazgo relacionado con un modelo de flujo de trabajo o un lanzador. Estos se registran porque los modelos de flujo de trabajo de recursos personalizados deben migrarse al actualizar a AEM as a Cloud Service.
 
 Se utiliza un subtipo para identificar el tipo de problema de flujo de trabajo que se detecta actualmente.
 

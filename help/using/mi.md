@@ -2,10 +2,10 @@
 title: MI
 description: Página de ayuda de código de Pattern Detector.
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 54%
+source-wordcount: '196'
+ht-degree: 55%
 
 ---
 
@@ -20,7 +20,7 @@ Problema de configuración incorrecta
 >title="Problema de configuración incorrecta"
 >abstract="MI identifica los problemas de configuración en la instancia de AEM"
 
-AEM Problema de configuración incorrecta de MI identifica problemas de configuración en la instancia de.
+`MI` AEM (Problema de configuración incorrecta) Identifica problemas de configuración en la instancia de.
 
 Los subtipos se utilizan para identificar los diferentes tipos de información, como:
 

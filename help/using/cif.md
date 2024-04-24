@@ -2,9 +2,9 @@
 title: CIF
 description: Página de ayuda de código de Pattern Detector.
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 52%
 
 ---
@@ -21,7 +21,7 @@ Commerce Integration Framework clásico
 >abstract="CIF identifica la versión clásica del uso de Commerce integration framework AEM que es incompatible con el as a Cloud Service de la."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/introduction" text=" Content and Commerce"
 
-CIF CIF La versión de Commerce integration framework AEM que identifica el uso de es incompatible con el uso de as a Cloud Service. El mensaje para cada `CIF` Esta búsqueda identifica el uso de y proporciona información adicional.
+`CIF`  Identifica la versión clásica del uso de Commerce integration framework AEM que es incompatible con el as a Cloud Service de la. El mensaje para cada `CIF` Esta búsqueda identifica el uso de y proporciona información adicional.
 
 Los subtipos se utilizan para identificar los diferentes tipos de información:
 

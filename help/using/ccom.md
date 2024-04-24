@@ -2,10 +2,10 @@
 title: CCOM
 description: Página de ayuda de código de Pattern Detector.
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 70%
+source-wordcount: '239'
+ht-degree: 66%
 
 ---
 
@@ -20,7 +20,7 @@ Componente personalizado
 >title="Componente personalizado"
 >abstract="CCOM identifica los componentes personalizados que se han instalado en AEM. Esta información se proporciona a los efectos de la evaluación de las prácticas recomendadas"
 
-CCOM identifica los componentes personalizados que se han instalado en AEM. Esta información se proporciona a los efectos de la evaluación de las prácticas recomendadas.
+`CCOM` AEM Identifica los componentes personalizados que se han instalado en el sistema de informes de la aplicación de la. Esta información se proporciona a los efectos de la evaluación de las prácticas recomendadas.
 
 Se utiliza un subtipo con este código para identificar la categoría del componente:
 

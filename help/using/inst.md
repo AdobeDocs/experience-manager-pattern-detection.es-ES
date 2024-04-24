@@ -2,10 +2,10 @@
 title: INST
 description: Página de ayuda de código de Pattern Detector.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 76%
+source-wordcount: '446'
+ht-degree: 72%
 
 ---
 
@@ -22,7 +22,7 @@ Artefacto instalado
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Directrices de desarrollo: AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="Directrices de paquetes: AEM as a Cloud Service"
 
-INST identifica paquetes personalizados y de terceros que el cliente ha instalado en AEM. Se informa de que estas medidas ayudan a caracterizar el estado del sistema en el ámbito general de un esfuerzo de actualización.
+`INST`  AEM Identifica paquetes personalizados y de terceros que el cliente ha instalado en el servicio de paquetes de. Se informa de que estas medidas ayudan a caracterizar el estado del sistema en el ámbito general de un esfuerzo de actualización.
 
 Cuando se instalan varias versiones de un paquete, solo se informa de la última versión.
 

@@ -2,9 +2,9 @@
 title: CTEM
 description: Página de ayuda de código de Pattern Detector.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '247'
 ht-degree: 68%
 
 ---
@@ -20,7 +20,7 @@ Plantilla personalizada
 >title="Plantilla personalizada"
 >abstract="CTEM identifica los componentes personalizados que se han instalado en AEM. Esta información se proporciona a los efectos de la evaluación de las prácticas recomendadas"
 
-AEM CTEM identifica las plantillas personalizadas que se han instalado en las plantillas de la aplicación de la plataforma de datos de. Esta información se proporciona a los efectos de la evaluación de las prácticas recomendadas.
+`CTEM`  AEM Identifica las plantillas personalizadas que se han instalado en los recursos de la aplicación Esta información se proporciona a los efectos de la evaluación de las prácticas recomendadas.
 
 Las plantillas se identifican con un valor de tipo principal de `cq:Template`. Con este código se utiliza un subtipo para identificar la categoría de la plantilla:
 
