@@ -1,11 +1,11 @@
 ---
 title: OU
-description: Página de ayuda de código de Pattern Detector.
+description: Página de ayuda de código del detector de patrones.
 exl-id: 6ec96fab-dd6e-46af-864f-05dad387cbb6
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 63%
+ht-degree: 72%
 
 ---
 
@@ -19,7 +19,7 @@ Uso obsoleto
 >id="aemcloud_bpa_ou_overview"
 >title="Uso obsoleto"
 >abstract="OU identifica la situación en la que algunos nodos JCR, como componentes de Sling o de AEM o exportaciones OSGi de API, se cambian o eliminan de forma no compatible. Es posible que el cliente no esté al tanto de este cambio antes de una actualización. Pueden actualizarse a una versión incompatible o no estar disponibles."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Cambios importantes en AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Cambios importantes en AEM as a Cloud Service"
 
 `OU`  AEM Identifica la situación en la que algunos nodos JCR, como componentes de Sling o de o exportaciones OSGi de API, se cambian o eliminan de forma no compatible. Es posible que el cliente no esté al tanto de este cambio antes de una actualización. Pueden actualizarse a una versión incompatible o no estar disponibles.
 
@@ -35,10 +35,10 @@ Como las versiones anteriores no están instaladas de forma predeterminada, es p
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ou_guidance"
 >title="Directrices de implementación"
->abstract="Una práctica recomendada es revisar y adaptar el código del cliente para utilizar la versión más reciente de componentes de AEM o API. Póngase en contacto con el Soporte técnico de Adobe para obtener ayuda o aclaraciones."
+>abstract="Una práctica recomendada es revisar y adaptar el código del cliente para utilizar la versión más reciente de componentes de AEM o API. Póngase en contacto con el equipo de soporte de Adobe para obtener ayuda o aclaraciones."
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="API de SDK de Adobe Experience Manager"
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
 * A corto plazo: la instalación del paquete de compatibilidad podría ayudar.
 * AEM A largo plazo: adapte el código de cliente para utilizar la versión más reciente de componentes o API de.
-* Póngase en contacto con [AEM Equipo de soporte](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para aclaraciones o para que se aborden las preocupaciones.
+* Póngase en contacto con el [equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o resolver dudas.

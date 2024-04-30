@@ -1,11 +1,11 @@
 ---
 title: ASO
-description: Página de ayuda de código de Pattern Detector.
+description: Página de ayuda de código del detector de patrones.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 53%
+ht-degree: 67%
 
 ---
 
@@ -19,7 +19,7 @@ Información general del sistema AEM
 >id="aemcloud_bpa_aso_overview"
 >title="Información general del sistema AEM"
 >abstract="El código ASO identifica la información general acerca de la instancia de AEM. Cada búsqueda proporciona un valor de un tipo particular de información del sistema que puede ayudarle en la planificación de la migración y en el esfuerzo de refactorización."
->additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service: notas de la versión"
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service: Notas de la versión"
 
 `ASO` AEM Identifica información general acerca de la instancia de. Cada búsqueda proporciona un valor de un tipo particular de información del sistema.
 
@@ -57,12 +57,12 @@ Los subtipos se utilizan para identificar diferentes tipos de información:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_guidance"
 >title="Directrices de implementación"
->abstract="AEM La información expuesta mediante el código ASO proporciona información general para su entorno de, incluida la versión, los complementos del producto y la información a nivel del sistema. AEM Revise si hay productos o funciones no compatibles en el as a Cloud Service de la. Póngase en contacto con el Soporte técnico de Adobe para obtener ayuda o aclaraciones."
+>abstract="La información expuesta mediante el código ASO proporciona información general para su entorno de AEM, incluida la versión, los complementos del producto y la información a nivel de sistema. Revísela para ver si hay productos o funciones no compatibles en AEM as a Cloud Service. Póngase en contacto con el equipo de soporte de Adobe para obtener ayuda o aclaraciones."
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
 * AEM No se recomiendan las actualizaciones con productos o funciones no compatibles y es posible que no sean compatibles.
 * Los activos no procesados deben ser procesados y el `dam:assetState` propiedad en el `jcr:content` del recurso debe establecerse en &quot;Procesado&quot;. O bien, debe eliminar estos recursos del conjunto de migración antes de migrarlos a AEMaaCS.
 * Las URL mnemónicas podrían reemplazarse con las reescrituras de Apache.
-* Consulte [documentación](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries) para solucionar problemas de consultas lentas.
+* Consulte la [documentación](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries) para solucionar problemas de consultas lentas.
 * Consulte la [notas de la versión](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) AEM si desea obtener más información sobre los cambios más recientes en el as a Cloud Service de la.
-* Póngase en contacto con [AEM Equipo de soporte](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para aclaraciones o para que se aborden las preocupaciones.
+* Póngase en contacto con el [equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o resolver dudas.

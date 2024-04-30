@@ -1,11 +1,11 @@
 ---
 title: MI
-description: Página de ayuda de código de Pattern Detector.
+description: Página de ayuda de código del detector de patrones.
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 55%
+ht-degree: 95%
 
 ---
 
@@ -43,11 +43,11 @@ Los subtipos se utilizan para identificar los diferentes tipos de información, 
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
 * `sling.job.max.parallel`
-   * El Adobe recomienda establecer el valor en 0,5 para aprovechar la mitad de los procesadores disponibles.
+   * Adobe recomienda establecer el valor en 0,5 para aprovechar la mitad de los procesadores disponibles.
 * `missing.maintenance.configuration`
-   * Limpieza de revisión: consulte [Limpieza de revisión](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup). La parte importante con respecto a la configuración es esta: [Limpieza de revisión: configurar cola y compactación completa](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup).
-   * Limpieza de binarios de Lucene: consulte [Panel de operaciones - Limpieza de binarios de Lucene](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup).
-   * Recopilación de residuos del almacén de datos: consulte [Recopilación de residuos del almacén de datos](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection).
-   * Depuración de flujo de trabajo: consulte [Depuración regular de instancias de flujo de trabajo](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances).
-   * Tarea de mantenimiento de AuditLog: consulte [Mantenimiento del registro de auditoría](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/operations-audit-log).
-* Póngase en contacto con [Equipo de atención al cliente de Experience Manager](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o solucionar problemas.
+   * Limpieza de revisión: Consulte [Limpieza de revisión](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup). La parte importante con respecto a la configuración es esta: [Limpieza de revisión: configuración de cola y compactación completa](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup).
+   * Limpieza de binarios de Lucene: consulte [Panel de operaciones: limpieza de binarios de Lucene](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup).
+   * Recopilación de datos desechables del almacén de datos: consulte [Recopilación de datos desechables del almacén de datos](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection).
+   * Depuración del flujo de trabajo: consulte [Depuración regular de instancias de flujo de trabajo](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances).
+   * Tarea de mantenimiento del registro de auditoría: consulte [Mantenimiento del registro de auditoría](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/sites/administering/operations/operations-audit-log).
+* Póngase en contacto con el [equipo de servicio de atención al cliente de Experience Manager](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para aclarar sus dudas o resolver sus problemas.
