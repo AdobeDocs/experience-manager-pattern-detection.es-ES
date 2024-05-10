@@ -3,9 +3,9 @@ title: FORM
 description: Página de ayuda de código del detector de patrones.
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '981'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 73%
 >id="aemcloud_bpa_forms_overview"
 >title="FORMS"
 >abstract="El código de Forms identifica posibles problemas relacionados con la migración de Adobe Experience Manager Forms a Adobe Experience Manager Forms as a Cloud Service. Revise las posibles implicaciones y riesgos asociados y aborde estos problemas antes de migrar a Cloud Service."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="Posibles implicaciones y riesgos"
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="Posibles implicaciones y riesgos"
 
-`FORMS`  Identifica posibles problemas relacionados con la migración de [!DNL Adobe Experience Manager Forms] hasta [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service]. Solucionar estos problemas antes de migrar a [!DNL Cloud Service].
+`FORMS` Identifica posibles problemas relacionados con la migración de [!DNL Adobe Experience Manager Forms] a [!DNL Adobe Experience Manager Forms] como [!DNL Cloud Service]. Solucionar estos problemas antes de migrar a [!DNL Cloud Service].
 
 Los siguientes subtipos le ayudan a identificar los diferentes tipos de problemas:
 
@@ -40,7 +40,7 @@ Aborde los siguientes problemas, antes de migrar a [!DNL Adobe Experience Manage
 
 * La compatibilidad con el correo electrónico (puerto SMTP) está deshabilitada de forma predeterminada. (EMAIL_SERVICE_CONFIGURATION)
 
-* El **[!UICONTROL PDF de correo electrónico]** Enviar acción no está disponible. (EMAIL_PDF_SUBMIT_ACTION)
+* La acción de envío de **[!UICONTROL PDF de correo electrónico]** no está disponible.  (EMAIL_PDF_SUBMIT_ACTION)
 
 * Los formularios adaptables basados en XFA aún no son compatibles. (XFA_BASED_FORM, XDP_BASED_FORM)
 
@@ -52,7 +52,7 @@ Aborde los siguientes problemas, antes de migrar a [!DNL Adobe Experience Manage
 
 * La acción de envío **[!UICONTROL Enviar a Forms Workflow]** no está disponible. En AEM 6.5 Forms y versiones anteriores, la acción de envío se utilizaba para enviar datos de formulario adaptables a AEM Forms heredados en flujos de trabajo JEE y LiveCycle. (LC_WORKFLOW_SUBMISSION)
 
-* La capacidad de comunicaciones interactivas no está disponible. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS).
+* La capacidad de comunicaciones interactivas no está disponible.  (FP_PROFILE_INTERACTIVE_COMMUNICATIONS).
 
 * El acordeón de metadatos no está disponible. (METADATA_ACCORDION_FORM_CONTAINER)
 
@@ -60,7 +60,7 @@ Aborde los siguientes problemas, antes de migrar a [!DNL Adobe Experience Manage
 
 * La aplicación [!DNL AEM Forms] no está disponible para [!DNL Cloud Services]. (AEM_FORMS_APP)
 
-* [Document Services](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/install-aem-forms/osgi-installation/install-configure-document-services#deployment-topology) AEM Los pasos no están disponibles en Flujos de trabajo de. (WORKFLOW_DOCSERVICES)
+* Los pasos de [Servicios de documentos](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/forms/install-aem-forms/osgi-installation/install-configure-document-services#deployment-topology) no están disponibles en flujos de trabajo de AEM. (WORKFLOW_DOCSERVICES)
 
 ## Posibles soluciones {#solutions}
 
@@ -76,15 +76,15 @@ Aborde los siguientes problemas, antes de migrar a [!DNL Adobe Experience Manage
 
 * Use la acción de envío **[!UICONTROL Correo electrónico]** en lugar de **[!UICONTROL PDF de correo electrónico]**. La acción de envío **[!UICONTROL Correo electrónico]** proporciona opciones para enviar archivos adjuntos y adjuntar el documento de registro (DoR) mediante correo electrónico. (EMAIL_PDF_SUBMIT_ACTION)
 
-* Los datos enviados contienen un ID de acuerdo de Adobe Acrobat Sign. Puede utilizar el ID del acuerdo de Sign para recuperar un PDF del acuerdo de Sign, si es necesario. (FORM_SIGN_INTEGRATION)
+* Los datos enviados contienen un ID de acuerdo de Adobe Acrobat Sign. Puede utilizar el ID del acuerdo de Sign para recuperar un PDF del contrato de Sign, si es necesario.  (FORM_SIGN_INTEGRATION)
 
 * Elimine el paso Firma de un formulario adaptable existente. Configure el formulario adaptable para usar [experiencia de firma en el explorador](https://blog.developer.adobe.com/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684). Muestra el acuerdo de Adobe Acrobat Sign para su firma dentro del explorador al enviar un formulario adaptable. La experiencia de firma en el explorador ayuda a proporcionar una experiencia de firma más rápida y ahorra tiempo para el firmante. (SIGNATURE_STEP)
 
-* Elimine el paso de verificación de su Forms adaptable existente antes de mover dichos formularios a una [!DNL Cloud Service] entorno. (VERIFY_STEP)
+* Quite el paso de verificación de sus formularios adaptables existentes antes de trasladar dichos formularios a un entorno de [!DNL Cloud Service]. (VERIFY_STEP)
 
-* Edite los formularios adaptables existentes para poder utilizar [Enviar al extremo REST](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-to-rest-endpoint), [Enviar correo electrónico](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#send-email), [Enviar mediante modelo de datos de formulario](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-using-form-data-model), y [AEM Invocar un flujo de trabajo de](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow) Acciones de envío.
+* Edite los formularios adaptables existentes para utilizar las acciones de envío [Enviar al punto final REST](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-to-rest-endpoint), [Enviar correo electrónico](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#send-email), [Enviar mediante el modelo de datos de formulario](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-using-form-data-model) e [Invocar un flujo de trabajo de AEM](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow).
 
-* AEM Puede desarrollar un flujo de trabajo de y editar los formularios adaptables existentes para utilizarlos [AEM Flujo de trabajo de](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow) AEM Enviar acción para enviar datos a un flujo de trabajo de la en lugar de usar el **[!UICONTROL Enviar al Forms Workflow]** Acción de envío. Puede desarrollar una acción de envío personalizada para enviar datos, archivos adjuntos o un documento de registro (DoR) a un proceso de LiveCycle en lugar de usar [!UICONTROL Enviar a Forms Workflow]. (LC_WORKFLOW_SUBMISSION)
+* Puede desarrollar un flujo de trabajo de AEM y modificar los formularios adaptables existentes para utilizar la acción de envío [Flujo de trabajo de AEM](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow) y enviar datos a un flujo de trabajo de AEM en lugar de usar **[!UICONTROL Enviar a Forms Workflow]**. Puede desarrollar una acción de envío personalizada para enviar datos, archivos adjuntos o un documento de registro (DoR) a un proceso de LiveCycle en lugar de usar [!UICONTROL Enviar a Forms Workflow]. (LC_WORKFLOW_SUBMISSION)
 
 * Busque las notas de la versión mensuales para obtener información sobre la disponibilidad de la función de comunicaciones interactivas. No migre las comunicaciones interactivas, las cartas y los diccionarios relacionados a un entorno de Cloud Service hasta que la función no esté disponible. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
@@ -92,10 +92,10 @@ Aborde los siguientes problemas, antes de migrar a [!DNL Adobe Experience Manage
 
 * Utilice Google reCAPTCHA en lugar del servicio CAPTCHA proporcionado por Adobe Experience Manager. (FORMS_CAPTCHA)
 
-* AEM No migre un modelo de flujo de trabajo de que utilice un paso de flujo de trabajo de servicios de documentos. Además, no migre ni actualice los Forms adaptables que envían datos de usuario a un modelo de flujo de trabajo que utiliza servicios de documentos Pasos del flujo de trabajo o cambie el **`Submit Action`** a un [uno compatible](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions) antes de migrar el formulario. (WORKFLOW_DOCSERVICES)
+* No migre un modelo de flujo de trabajo de AEM que utilice un paso de flujo de trabajo de servicios de documentos. Tampoco migre ni actualice formularios adaptables que envíen datos de usuario a un modelo de flujo de trabajo que utilice los pasos del flujo de trabajo de servicios de documentos ni cambie **`Submit Action`** a [una compatible](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions) antes de migrar el formulario. (WORKFLOW_DOCSERVICES)
 
 * Los formularios adaptables ofrecen un diseño interactivo. Estos formularios cambian el aspecto, el diseño y la interactividad en función del dispositivo subyacente. Puede seguir utilizando formularios adaptables en dispositivos móviles. Busque las notas de la versión mensuales para obtener información sobre la disponibilidad de la aplicación [!DNL AEM Forms]. (AEM_FORMS_APP)
 
 * La compatibilidad con formularios adaptables basados en XFA no está disponible de forma predeterminada. Si tiene intención de utilizar formularios adaptables basados en XFA, póngase en contacto con el servicio de soporte de Adobe e incluya información sobre su caso de uso y los requisitos específicos en el mensaje.(XFA_BASED_FORM, XDP_BASED_FORM)
 
-Contacto [Compatibilidad con Adobe](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) si necesita aclaraciones o si tiene alguna duda.
+Póngase en contacto con el [Equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o resolver dudas.

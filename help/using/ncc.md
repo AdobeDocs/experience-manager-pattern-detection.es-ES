@@ -3,9 +3,9 @@ title: NCC
 description: Página de ayuda de código del detector de patrones.
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Cambios no compatibles
 >title="Cambios no compatibles"
 >abstract="NCC identifica la situación en la que algunos nodos o paquetes JCR se cambian de una manera no compatible. Es posible que el cliente no esté al tanto de este cambio antes de una actualización. "
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Cambios importantes en AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Notas de la versión para AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Notas de la versión: AEM as a Cloud Service"
 
-`NCC`  Identifica la situación en la que algunos nodos o paquetes JCR se cambian de una manera no compatible. Es posible que el cliente no esté al tanto de este cambio antes de una actualización. 
+`NCC` Identifica la situación en la que algunos nodos o paquetes JCR se cambian de una manera no compatible. Es posible que el cliente no esté al tanto de este cambio antes de una actualización. 
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 

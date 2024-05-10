@@ -3,9 +3,9 @@ title: ECU
 description: Página de ayuda de código del detector de patrones.
 exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ OBSOLETO: uso de contenido externo (reemplazado por CAV, infracción de área de
 
 ## Fondo {#background}
 
-`ECU`  Identifica el patrón en el que se utilizan diferentes áreas de contenido de manera que se infringen las reglas de la clasificación de contenido.
+`ECU` Identifica el patrón en el que se utilizan distintas áreas de contenido de forma que se infringen las reglas de la clasificación de contenido.
 
 El procesamiento de solicitudes de Sling define el modo en que el contenido de un recurso, su propiedad `sling:resourceType` en particular, se utiliza para determinar la secuencia de comandos que se utiliza para procesar el contenido. (Consulte [Localización de la secuencia de comandos](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-scrip) para obtener más información). Sling también proporciona técnicas para acceder y combinar recursos a través de Superposiciones y Anulaciones. Estas se describen como parte de [Fusión de recursos de Sling](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) y en [Superposiciones](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/platform/overlays).
 

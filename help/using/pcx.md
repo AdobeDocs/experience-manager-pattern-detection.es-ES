@@ -3,9 +3,9 @@ title: PCX
 description: Página de ayuda de código del detector de patrones.
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Complejidad de la página
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Cambios importantes en AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service: Notas de la versión"
 
-`PCX`  Identifica las páginas que contienen muchos nodos en su estructura.
+`PCX` Identifica las páginas que contienen muchos nodos en su estructura.
 
 Los subtipos se utilizan para identificar los diferentes tipos de información:
 

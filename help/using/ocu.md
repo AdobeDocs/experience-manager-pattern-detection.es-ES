@@ -3,9 +3,9 @@ title: OCU
 description: Página de ayuda de código del detector de patrones.
 exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -18,10 +18,10 @@ OBSOLETO: uso de código obsoleto (reemplazado por OU, Uso obsoleto)
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ocu_overview"
 >title="Uso de código obsoleto"
->abstract="OCU identifica la situación en la que algunos nodos JCR, como componentes de Sling o de AEM o exportaciones OSGi de API, se cambian o eliminan de forma no compatible. Es posible que el cliente no esté al tanto de este cambio antes de una actualización. Pueden actualizarse a una versión incompatible o no estar disponibles."
+>abstract="OCU identifica la situación en la que algunos nodos JCR, como componentes de Sling o de AEM o exportaciones OSGi de API, se cambian o eliminan de forma no compatible. Es posible que el cliente no esté al tanto de este cambio antes de una actualización. Pueden actualizarse a una versión no compatible o no estar disponibles."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Cambios importantes en AEM as a Cloud Service"
 
-`OCU`  AEM Identifica la situación en la que algunos nodos JCR, como componentes de Sling o de o exportaciones OSGi de API, se cambian o eliminan de forma no compatible. Es posible que el cliente no esté al tanto de este cambio antes de una actualización. Pueden actualizarse a una versión incompatible o no estar disponibles.
+`OCU` Identifica la situación en la que algunos nodos JCR, como componentes de Sling o de AEM o exportaciones OSGi de API, se cambian o eliminan de forma no compatible. Es posible que el cliente no esté al tanto de este cambio antes de una actualización. Pueden actualizarse a una versión no compatible o no estar disponibles.
 
 Como las versiones anteriores no están instaladas de forma predeterminada, es posible que la aplicación del cliente no funcione correctamente.
 
@@ -39,6 +39,6 @@ Como las versiones anteriores no están instaladas de forma predeterminada, es p
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="API de SDK de Adobe Experience Manager"
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
-* A corto plazo: la instalación del paquete de compatibilidad podría ayudar.
-* AEM A largo plazo: adapte el código de cliente para utilizar la versión más reciente de componentes o API de.
-* Póngase en contacto con el [equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o resolver dudas.
+* A corto plazo: la instalación del paquete de compatibilidad podría resultar útil.
+* A largo plazo: adapte el código de cliente para utilizar la versión más reciente de componentes de AEM o API.
+* Póngase en contacto con el [Equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o resolver dudas.

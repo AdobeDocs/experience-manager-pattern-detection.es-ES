@@ -3,9 +3,9 @@ title: MSM
 description: Página de ayuda de código del detector de patrones.
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '145'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Administrador multisitio
 >abstract="MSM identifica la información general sobre la función del Administrador multisitio de AEM. Esta información se proporciona para ayudar a caracterizar el sistema."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Cambios importantes en AEM as a Cloud Service"
 
-`MSM`  AEM Identifica información general acerca de la característica Administrador de varios sitios para la creación de informes de varios sitios Esta información se proporciona para ayudar a caracterizar el sistema.
+`MSM` Identifica la información general sobre la función Administrador multisitio de AEM. Esta información se proporciona para ayudar a caracterizar el sistema.
 
 Los subtipos se utilizan para identificar diferentes tipos de información:
 

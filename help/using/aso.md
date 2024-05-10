@@ -3,9 +3,9 @@ title: ASO
 description: Página de ayuda de código del detector de patrones.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '473'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -21,12 +21,12 @@ Información general del sistema AEM
 >abstract="El código ASO identifica la información general acerca de la instancia de AEM. Cada búsqueda proporciona un valor de un tipo particular de información del sistema que puede ayudarle en la planificación de la migración y en el esfuerzo de refactorización."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service: Notas de la versión"
 
-`ASO` AEM Identifica información general acerca de la instancia de. Cada búsqueda proporciona un valor de un tipo particular de información del sistema.
+`ASO` Identifica información general acerca de la instancia de AEM. Cada búsqueda proporciona un valor de un tipo particular de información del sistema.
 
 Los subtipos se utilizan para identificar diferentes tipos de información:
 
 * `aem.version`: la versión de AEM.
-* `aem.product`AEM : detección del uso de un producto de la (Commerce, Forms, etc.).
+* `aem.product`: detección del uso de un producto AEM (Commerce, Forms, etc.).
 * `node.count`: el recuento aproximado de nodos de un tipo determinado (página, recurso, etc.) y el total general de nodos.
 * `node.store`: el tipo de implementación del almacén de nodos (SegmentNodeStore, DocumentNodeStore) y su tamaño.
 * `data.store`: el tipo de implementación del almacén de datos (FileDataStore, S3DataStore, AzureDataStore).
@@ -45,7 +45,7 @@ Los subtipos se utilizan para identificar diferentes tipos de información:
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
-* AEM AEM La versión de la, los recuentos de nodos, los miembros del grupo, el almacén de nodos, los tipos de implementación del almacén de datos, el recuento de etiquetas CQ, el recuento de etiquetas inteligentes, la versión del componente principal, el tipo de instancia de la y el recuento de recursos sin procesar se proporcionan con fines informativos.
+* La versión de AEM, los recuentos de nodos, los miembros del grupo, el almacén de nodos, los tipos de implementación del almacén de datos, el recuento de etiquetas CQ, el recuento de etiquetas inteligentes, la versión del componente principal, el tipo de instancia de AEM y el recuento de recursos sin procesar se proporcionan con fines informativos.
 * El mayor número de URL mnemónicas (>1000) puede cargar Dispatcher y los servidores de publicación con consultas costosas.
 * La aplicación personalizada puede depender de productos o características no disponibles en AEM as a Cloud Service.
 * La actualización con funciones no compatibles puede provocar un error en la actualización y una aplicación no funcional.
@@ -60,9 +60,9 @@ Los subtipos se utilizan para identificar diferentes tipos de información:
 >abstract="La información expuesta mediante el código ASO proporciona información general para su entorno de AEM, incluida la versión, los complementos del producto y la información a nivel de sistema. Revísela para ver si hay productos o funciones no compatibles en AEM as a Cloud Service. Póngase en contacto con el equipo de soporte de Adobe para obtener ayuda o aclaraciones."
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
-* AEM No se recomiendan las actualizaciones con productos o funciones no compatibles y es posible que no sean compatibles.
-* Los activos no procesados deben ser procesados y el `dam:assetState` propiedad en el `jcr:content` del recurso debe establecerse en &quot;Procesado&quot;. O bien, debe eliminar estos recursos del conjunto de migración antes de migrarlos a AEMaaCS.
-* Las URL mnemónicas podrían reemplazarse con las reescrituras de Apache.
-* Consulte la [documentación](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries) para solucionar problemas de consultas lentas.
-* Consulte la [notas de la versión](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) AEM si desea obtener más información sobre los cambios más recientes en el as a Cloud Service de la.
+* No se recomiendan las actualizaciones de AEM con productos o funciones no compatibles y es posible que no sean compatibles.
+* Los activos no procesados deben ser procesados y la propiedad `dam:assetState` en el nodo `jcr:content` del recurso debe establecerse en “Procesado”. O bien, debe eliminar estos recursos del conjunto de migración antes de migrarlos a AEMaaCS.
+* Las URL de vanidad podrían reemplazarse con las reescrituras de Apache.
+* Consulte la [documentación](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries) para solucionar problemas de consultas lentas.
+* Consulte las [notas de la versión](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) para obtener más información acerca de los cambios más recientes en AEM as a Cloud Service.
 * Póngase en contacto con el [equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o resolver dudas.

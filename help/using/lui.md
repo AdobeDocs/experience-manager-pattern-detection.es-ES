@@ -3,9 +3,9 @@ title: LUI
 description: Página de ayuda de código del detector de patrones.
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '703'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Interfaz de usuario heredada
 >abstract="LUI identifica el uso de elementos de interfaz de usuario obsoletos que no se recomiendan o no se admiten en versiones posteriores de AEM y en AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Cambios importantes en AEM as a Cloud Service"
 
-`LUI`  AEM AEM Identifica el uso de elementos de interfaz de usuario obsoletos que no se recomiendan o no se admiten en versiones posteriores de la interfaz de usuario y que no se admiten en versiones posteriores de la interfaz de usuario de as a Cloud Service.
+`LUI` Identifica el uso de elementos de interfaz de usuario obsoletos que no se recomiendan o no se admiten en versiones posteriores de AEM y en AEM as a Cloud Service.
 
 Los subtipos se utilizan para identificar los diferentes tipos de elementos de la interfaz de usuario que deberían o deben actualizarse:
 

@@ -3,9 +3,9 @@ title: DM
 description: Obtenga información sobre cómo el código del detector de patrones identifica el uso de AEM Assets - Dynamic Media.
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 

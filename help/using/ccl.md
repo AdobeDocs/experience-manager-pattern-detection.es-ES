@@ -3,9 +3,9 @@ title: CCL
 description: Página de ayuda de código del detector de patrones.
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '146'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Biblioteca de cliente personalizada
 >title="Biblioteca de cliente personalizada"
 >abstract="CCL identifica las bibliotecas de cliente que se han instalado en AEM. Esta información se proporciona a los efectos de la evaluación de las prácticas recomendadas."
 
-`CCL` AEM Identifica las bibliotecas de cliente que se han instalado en el sistema de archivos de. Esta información se proporciona a los efectos de la evaluación de las prácticas recomendadas.
+`CCL` Identifica las bibliotecas de cliente que se han instalado en AEM. Esta información se proporciona a los efectos de la evaluación de las prácticas recomendadas.
 
 Se utiliza un subtipo con este código:
 

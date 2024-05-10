@@ -3,9 +3,9 @@ title: NBCC
 description: Página de ayuda de código del detector de patrones.
 exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ OBSOLETO: cambios no compatibles con versiones anteriores (reemplazados por NCC,
 >title="Cambios no compatibles con versiones anteriores"
 >abstract="NBCC identifica la situación en la que algunos nodos o paquetes JCR se cambian de una manera no compatible. Es posible que el cliente no esté al tanto de este cambio antes de una actualización. "
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Cambios importantes en AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Notas de la versión para AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Notas de la versión: AEM as a Cloud Service"
 
-`NBCC`  Identifica la situación en la que algunos nodos o paquetes JCR se cambian de una manera no compatible. Es posible que el cliente no esté al tanto de este cambio antes de una actualización. 
+`NBCC` Identifica la situación en la que algunos nodos o paquetes JCR se cambian de una manera no compatible. Es posible que el cliente no esté al tanto de este cambio antes de una actualización. 
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
@@ -38,6 +38,6 @@ OBSOLETO: cambios no compatibles con versiones anteriores (reemplazados por NCC,
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/platform/overlays#platform" text="Superposiciones"
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
-* Superponga o haga referencia únicamente a componentes de Sling compatibles con versiones anteriores.
+* Superponga o haga referencia únicamente a componentes de Sling compatibles.
 * Considere la posibilidad de adaptar los recursos procedentes de `/libs` o paquetes después de una actualización AEM.
 * Póngase en contacto con el [equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o resolver dudas.

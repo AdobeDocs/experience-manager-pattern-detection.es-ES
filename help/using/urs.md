@@ -3,9 +3,9 @@ title: URS
 description: Página de ayuda de código del detector de patrones.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -21,10 +21,10 @@ Estructura de repositorio no admitida
 
 ## Fondo {#background}
 
-`URS`  Identifica casos de características de nodo y estructura de repositorio no admitidas. A partir del AEM 6.4, se han previsto directrices para la reestructuración del contenido del repositorio. Al delinear claramente las jerarquías para el código de producto AEM y el código de cliente y evitar conflictos entre ellos, el contenido se está reestructurando fuera de `/etc` a otras carpetas del repositorio, siguiendo las siguientes reglas de alto nivel:
+`URS` Identifica casos de estructura de repositorio no compatible y características de nodo. A partir del AEM 6.4, se han previsto directrices para la reestructuración del contenido del repositorio. Al delinear claramente las jerarquías para el código de producto AEM y el código de cliente y evitar conflictos entre ellos, el contenido se está reestructurando fuera de `/etc` a otras carpetas del repositorio, siguiendo las siguientes reglas de alto nivel:
 
-* AEM El código de producto siempre se coloca en `/libs`, que no se deben sobrescribir con el código personalizado.
-* El código personalizado debe colocarse en `/apps`, `/content`, y `/conf`.
+* El código de producto de AEM siempre se colocará en `/libs`, que no se debe sobrescribir con el código personalizado.
+* El código personalizado debe colocarse en `/apps`, `/content`, y `/conf`.
 * Es muy recomendable que estas directrices se sigan para AEM as a Cloud Service.
 
 Los subtipos se utilizan para identificar tipos específicos de problemas de repositorios que deben solucionarse:
@@ -39,7 +39,7 @@ Los subtipos se utilizan para identificar tipos específicos de problemas de rep
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
 * El código personalizado que depende de rutas antiguas puede causar un comportamiento no deseado y afectar a la funcionalidad del producto.
-* Los paquetes que contienen contenido mutable e inmutable probablemente puedan causar problemas durante la implementación.
+* Los paquetes que contienen contenido mutable e inmutable probablemente causarán problemas durante la implementación.
 
 ## Posibles soluciones {#solutions}
 
@@ -51,6 +51,6 @@ Los subtipos se utilizan para identificar tipos específicos de problemas de rep
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
 * Consulte la [Reestructuración de repositorios](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring) para obtener ayuda para prepararse para AEM as a Cloud Service.
-* Consulte también [AEM Estructura del proyecto de](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) si desea obtener más información sobre las áreas mutables e inmutables del repositorio.
+* Consulte también la [Estructura del proyecto AEM](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) para obtener más información sobre las áreas mutables e inmutables del repositorio.
 * Póngase en contacto con el [equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o resolver dudas.
-* Utilice el [Modernizador de repositorio](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/repo-modernizer#refactoring-tools) para reestructurar los paquetes de proyectos existentes separando contenido y código en paquetes discretos para que sean compatibles con la estructura de proyectos definida para Adobe Experience Manager as a Cloud Service.
+* Utilice el [Modernizador de repositorio](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/repo-modernizer#refactoring-tools) para reestructurar los paquetes de proyectos existentes separando contenido y código en paquetes discretos para que sean compatibles con la estructura de proyectos definida para Adobe Experience Manager as a Cloud Service.

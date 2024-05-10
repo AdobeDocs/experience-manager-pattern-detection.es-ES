@@ -3,9 +3,9 @@ title: CTEM
 description: Página de ayuda de código del detector de patrones.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Plantilla personalizada
 >title="Plantilla personalizada"
 >abstract="CTEM identifica los componentes personalizados que se han instalado en AEM. Esta información se proporciona a los efectos de la evaluación de las prácticas recomendadas"
 
-`CTEM`  AEM Identifica las plantillas personalizadas que se han instalado en los recursos de la aplicación Esta información se proporciona a los efectos de la evaluación de las prácticas recomendadas.
+`CTEM` Identifica las plantillas personalizadas que se han instalado en AEM. Esta información se proporciona a los efectos de la evaluación de las prácticas recomendadas.
 
-Las plantillas se identifican con un valor de tipo principal de `cq:Template`. Con este código se utiliza un subtipo para identificar la categoría de la plantilla:
+Las plantillas se identifican con un valor de tipo principal `cq:Template`. Con este código se utiliza un subtipo para identificar la categoría de la plantilla:
 
 * `custom.editable.template`: la ruta de la plantilla no comienza con &quot;/apps&quot;.
 * `custom.static.template`: La ruta de la plantilla comienza con &quot;/apps&quot;.
@@ -47,6 +47,6 @@ Las plantillas se identifican con un valor de tipo principal de `cq:Template`. C
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/structure/about.html" text="Conversor de estructura de página"
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
-* Utilice el [AEM Herramientas de modernización de](https://opensource.adobe.com/aem-modernize-tools/) para migrar plantillas estáticas a plantillas editables.
+* Utilice las [Herramientas de modernización de AEM](https://opensource.adobe.com/aem-modernize-tools/) para migrar plantillas estáticas a plantillas editables.
 * Para obtener más información sobre las plantillas editables, consulte [Plantillas](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/platform/templates/templates).
 * Póngase en contacto con el [equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para aclarar sus dudas o resolver sus problemas.

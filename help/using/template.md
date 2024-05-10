@@ -2,9 +2,9 @@
 title: PLANTILLA
 description: Plantilla de la página de ayuda de código del detector de patrones.
 source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Responda a la pregunta: “¿Por qué debería importarme?”
 
 ## Posibles soluciones {#solutions}
 
-Proporcione una descripción de los posibles pasos que mitigan o resuelvan el problema. Evite duplicar la información que se puede encontrar en cualquier otra parte: consulte la documentación de Adobe público siempre que sea posible.
+Proporcione una descripción de los posibles pasos que mitigan o resuelven el problema. Evite duplicar la información que se puede encontrar en cualquier otra parte: consulte la documentación pública de Adobe siempre que sea posible.
 Responda a la pregunta: “¿Qué puedo hacer al respecto?”
 
 * Posible solución n.º 1

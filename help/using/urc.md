@@ -3,9 +3,9 @@ title: URC
 description: Página de ayuda de código del detector de patrones.
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '261'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Configuración del modo de ejecución no compatible
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes" text="Modos de ejecución admitidos"
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/deploying/overview#runmodes" text="Modos de ejecución"
 
-`URC`  AEM Identifica el uso de configuraciones que se basan en un nombre de modo de ejecución no admitido en la as a Cloud Service de la.
+`URC` Identifica el uso de configuraciones que se basan en un nombre de modo de ejecución no admitido en AEM as a Cloud Service.
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 

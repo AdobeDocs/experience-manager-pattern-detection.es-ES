@@ -3,9 +3,9 @@ title: CCOM
 description: Página de ayuda de código del detector de patrones.
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Componente personalizado
 >title="Componente personalizado"
 >abstract="CCOM identifica los componentes personalizados que se han instalado en AEM. Esta información se proporciona a los efectos de la evaluación de las prácticas recomendadas"
 
-`CCOM` AEM Identifica los componentes personalizados que se han instalado en el sistema de informes de la aplicación de la. Esta información se proporciona a los efectos de la evaluación de las prácticas recomendadas.
+`CCOM` Identifica los componentes personalizados que se han instalado en AEM. Esta información se proporciona a los efectos de la evaluación de las prácticas recomendadas.
 
 Se utiliza un subtipo con este código para identificar la categoría del componente:
 
@@ -31,7 +31,7 @@ Se utiliza un subtipo con este código para identificar la categoría del compon
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
-* Una práctica recomendada es minimizar el número de componentes personalizados, utilizar componentes principales y utilizarlos con el sistema de estilos para reducir la deuda técnica.
+* La práctica recomendada consiste en minimizar el número de componentes personalizados, utilizar los componentes principales y utilizarlos con el sistema de estilos para reducir la deuda técnica.
 
 ## Posibles soluciones {#solutions}
 
