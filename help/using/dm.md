@@ -2,10 +2,10 @@
 title: DM
 description: Obtenga información sobre cómo el código del detector de patrones identifica el uso de AEM Assets - Dynamic Media.
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 88%
+source-wordcount: '173'
+ht-degree: 78%
 
 ---
 
@@ -18,11 +18,11 @@ Dynamic Media
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_overview"
 >title="Dynamic Media"
->abstract="El código DM identifica el uso de AEM Assets Dynamic Media en la implementación actual. El modo Dynamic Media se detecta mediante el modo de ejecución."
+>abstract="El código DM identifica el uso de AEM Assets Dynamic Media en la implementación actual. El modo de ejecución detecta el modo Dynamic Media."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM Desarrollo: directrices y prácticas recomendadas"
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Directrices de desarrollo de AEM as a Cloud Service"
 
-`DM` (Dynamic Media) Identifica el uso de AEM Assets Dynamic Media. El modo de Dynamic Media se detecta mediante el modo de ejecución.
+`DM` (Dynamic Media) Identifica el uso de AEM Assets Dynamic Media. El modo de ejecución detecta el modo Dynamic Media.
 
 Se utiliza un subtipo con este código:
 
