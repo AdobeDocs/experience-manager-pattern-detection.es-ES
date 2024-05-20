@@ -2,10 +2,10 @@
 title: DG
 description: Página de ayuda de código del detector de patrones.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '596'
-ht-degree: 100%
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+workflow-type: tm+mt
+source-wordcount: '597'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ Directrices para desarrolladores
 >id="aemcloud_bpa_dg_overview"
 >title="Directrices para desarrolladores"
 >abstract="El código DG identifica las desviaciones de determinadas directrices de desarrollo para AEM 6.5 y AEM as a Cloud Service. Las siguientes prácticas recomendadas pueden mejorar la capacidad de mantenimiento y el rendimiento del sistema. Aunque algunas de estas desviaciones pueden no ser un problema en otros contextos de aplicación, incluidas las versiones anteriores de AEM, pueden causar problemas cuando se utilizan con AEM as a Cloud Service."
->additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="Desarrollo de AEM: directrices y prácticas recomendadas"
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM Desarrollo: directrices y prácticas recomendadas"
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Directrices de desarrollo de AEM as a Cloud Service"
 
 

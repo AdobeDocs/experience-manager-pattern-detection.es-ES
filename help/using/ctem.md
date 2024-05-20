@@ -2,10 +2,10 @@
 title: CTEM
 description: Página de ayuda de código del detector de patrones.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 100%
+ht-degree: 71%
 
 ---
 
@@ -18,14 +18,14 @@ Plantilla personalizada
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_overview"
 >title="Plantilla personalizada"
->abstract="CTEM identifica los componentes personalizados que se han instalado en AEM. Esta información se proporciona a los efectos de la evaluación de las prácticas recomendadas"
+>abstract="AEM CTEM identifica los componentes personalizados que se instalan en los componentes de la interfaz de usuario de. Esta información se proporciona a los efectos de la evaluación de las prácticas recomendadas"
 
-`CTEM` Identifica las plantillas personalizadas que se han instalado en AEM. Esta información se proporciona a los efectos de la evaluación de las prácticas recomendadas.
+`CTEM`  AEM Identifica las plantillas personalizadas que se instalan en las plantillas de la aplicación de datos de la aplicación Esta información se proporciona a los efectos de la evaluación de las prácticas recomendadas.
 
-Las plantillas se identifican con un valor de tipo principal `cq:Template`. Con este código se utiliza un subtipo para identificar la categoría de la plantilla:
+Las plantillas tienen un valor de tipo principal de `cq:Template`, que ayuda a su identificación. Con este código se utiliza un subtipo para identificar la categoría de la plantilla:
 
-* `custom.editable.template`: la ruta de la plantilla no comienza con &quot;/apps&quot;.
-* `custom.static.template`: La ruta de la plantilla comienza con &quot;/apps&quot;.
+* `custom.editable.template`: la ruta de la plantilla no comienza con `/apps`.
+* `custom.static.template`: la ruta de la plantilla empieza por `/apps`.
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 

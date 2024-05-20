@@ -2,10 +2,10 @@
 title: WRK
 description: Página de ayuda de código del detector de patrones.
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '321'
-ht-degree: 100%
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+workflow-type: tm+mt
+source-wordcount: '323'
+ht-degree: 92%
 
 ---
 
@@ -44,7 +44,7 @@ Se utiliza un subtipo para identificar el tipo de problema de flujo de trabajo q
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_tools"
 >title="Herramientas y recursos"
->abstract="Revise y planifique la ejecución de la herramienta de migración del flujo de trabajo de recursos una vez que se identifique un modelo de flujo de trabajo de recursos personalizado o un lanzador. Póngase en contacto con el equipo de soporte de Adobe para obtener ayuda o aclaraciones."
+>abstract="Revise y planifique la ejecución de la herramienta de migración del flujo de trabajo de recursos una vez identificado un modelo de flujo de trabajo de recursos personalizado o un lanzador. Póngase en contacto con el equipo de soporte de Adobe para obtener ayuda o aclaraciones."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/asset-workflow-migration-tool" text="Herramienta de migración del flujo de trabajo de recursos"
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
