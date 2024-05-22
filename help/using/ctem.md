@@ -3,9 +3,9 @@ title: CTEM
 description: Página de ayuda de código del detector de patrones.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -18,14 +18,14 @@ Plantilla personalizada
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_overview"
 >title="Plantilla personalizada"
->abstract="AEM CTEM identifica los componentes personalizados que se instalan en los componentes de la interfaz de usuario de. Esta información se proporciona a los efectos de la evaluación de las prácticas recomendadas"
+>abstract="CTEM identifica los componentes personalizados que están instalados en AEM. Esta información se proporciona a los efectos de la evaluación de las prácticas recomendadas"
 
-`CTEM`  AEM Identifica las plantillas personalizadas que se instalan en las plantillas de la aplicación de datos de la aplicación Esta información se proporciona a los efectos de la evaluación de las prácticas recomendadas.
+`CTEM`  Identifica las plantillas personalizadas que están instaladas en AEM. Esta información se proporciona a los efectos de la evaluación de las prácticas recomendadas.
 
-Las plantillas tienen un valor de tipo principal de `cq:Template`, que ayuda a su identificación. Con este código se utiliza un subtipo para identificar la categoría de la plantilla:
+Las plantillas tienen un valor de tipo principal de `cq:Template`, que ayuda a identificarlas. Con este código se utiliza un subtipo para identificar la categoría de la plantilla:
 
-* `custom.editable.template`: la ruta de la plantilla no comienza con `/apps`.
-* `custom.static.template`: la ruta de la plantilla empieza por `/apps`.
+* `custom.editable.template`: La ruta de la plantilla no comienza con `/apps`.
+* `custom.static.template`: La ruta de la plantilla comienza con `/apps`.
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
@@ -33,7 +33,7 @@ Las plantillas tienen un valor de tipo principal de `cq:Template`, que ayuda a s
 >id="aemcloud_bpa_ctem_guidance"
 >title="Directrices de implementación"
 >abstract="Una práctica recomendada es mover todas las plantillas estáticas a plantillas editables. Los clientes pueden utilizar las herramientas de modernización de AEM existentes para migrar las plantillas estáticas a plantillas editables."
->additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/platform/templates/templates" text="Plantillas editables"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates" text="Plantillas editables"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="Herramientas de modernización de AEM"
 
 * Una práctica recomendada es mover todas las plantillas estáticas a plantillas editables.
@@ -48,5 +48,5 @@ Las plantillas tienen un valor de tipo principal de `cq:Template`, que ayuda a s
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
 * Utilice las [Herramientas de modernización de AEM](https://opensource.adobe.com/aem-modernize-tools/) para migrar plantillas estáticas a plantillas editables.
-* Para obtener más información sobre las plantillas editables, consulte [Plantillas](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/platform/templates/templates).
+* Para obtener más información sobre las plantillas editables, consulte [Plantillas](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates).
 * Póngase en contacto con el [equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para aclarar sus dudas o resolver sus problemas.
