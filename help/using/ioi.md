@@ -2,10 +2,10 @@
 title: IOI
 description: Página de ayuda de código del detector de patrones.
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '219'
-ht-degree: 100%
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 60%
 
 ---
 
@@ -18,15 +18,14 @@ Importación interna de Oak
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_overview"
 >title="Importación interna de Oak"
->abstract="El código IOI identifica el uso del cliente de los paquetes Oak internos y los importa a través de OSGi. Se exportan sin ninguna versión en particular y están destinados al consumo únicamente por otros paquetes Oak o servicios de AEM de bajo nivel."
+>abstract="El código IOI identifica el uso del cliente de los paquetes Oak internos y los importa mediante OSGi. Se exportan sin ninguna versión en particular. AEM Los paquetes Oak o los servicios de bajo nivel de la solo los consumen."
 
-`IOI` Identifica el uso de los paquetes Oak internos por parte del cliente, importándolos a través de OSGi. Se exportan sin ninguna versión en particular y están destinados al consumo únicamente por otros paquetes Oak o servicios de AEM de bajo nivel.
-
-Algunos de ellos son utilizados por `com.adobe.granite.repository`, que configura un repositorio para AEM durante el inicio. Otro ejemplo es el paquete de Adobe `com.adobe.granite.maintenance.oak`, que ajusta y proporciona tareas de mantenimiento de Oak.
+`IOI` Identifica el uso de los paquetes Oak internos por parte del cliente, importándolos a través de OSGi. Se exportan sin ninguna versión en particular. AEM Los paquetes Oak o los servicios de bajo nivel de la solo los consumen.
+Algunas de estas áreas son utilizadas por `com.adobe.granite.repository`AEM , que configura un repositorio para el inicio de los procesos de la. Otro ejemplo es el paquete de Adobe `com.adobe.granite.maintenance.oak`, que ajusta y proporciona tareas de mantenimiento de Oak.
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
-* En una versión futura de AEM, las exportaciones internas podrían eliminarse, lo que ocasionaría dependencias rotas y paquetes inactivos dependiendo directamente de Oak.
+* AEM En una versión futura, las exportaciones internas de la versión de la podrían eliminarse, lo que ocasionaría dependencias rotas y paquetes inactivos dependiendo directamente de Oak.
 * La API en las exportaciones internas puede cambiar.
 
 ## Posibles soluciones {#solutions}

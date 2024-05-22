@@ -2,10 +2,10 @@
 title: UMI
 description: Página de ayuda de código del detector de patrones.
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '351'
-ht-degree: 100%
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
+workflow-type: tm+mt
+source-wordcount: '352'
+ht-degree: 87%
 
 ---
 
@@ -31,7 +31,7 @@ Se comprueban las siguientes configuraciones para su modificación:
 * `org.apache.sling.engine.impl.auth.SlingAuthenticator`
 * `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory`
 * `com.day.cq.commons.impl.ExternalizerImpl`
-* `org.apache.sling.commons.log.LogManager.factory.config` : Identifique si la propiedad `org.apache.sling.commons.log.file` de los registradores personalizados señala a algo distinto del archivo `logs/error.log`.
+* `org.apache.sling.commons.log.LogManager.factory.config` : Identifique si la variable `org.apache.sling.commons.log.file` de los registradores personalizados señala a algo distinto de `logs/error.log` archivo.
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
@@ -39,7 +39,7 @@ Se comprueban las siguientes configuraciones para su modificación:
    * La actualización puede quedarse atascada (por ejemplo, `org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName` faltaba, pero estaba presente en `org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration.requiredServicePids`).
    * Los problemas de autorización pueden producirse después de la actualización (`org.apache.sling.engine.impl.auth.SlingAuthenticator`).
    * Es posible que ciertas funciones no operen correctamente. Por ejemplo, cambiar `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory` puede provocar que algunos archivos JSP no se compilen, lo que en última instancia produce una pérdida de funcionalidad.
-   * Los valores de la configuración del externalizador `com.day.cq.commons.impl.ExternalizerImpl` se definen mediante variables de entorno de Cloud Manager en AEM as a Cloud Service.
+   * Los valores de la configuración del externalizador `com.day.cq.commons.impl.ExternalizerImpl` AEM se establecen con variables de entorno de cloud manager en as a Cloud Service.
    * AEM as a Cloud Services no admite archivos de registro personalizados. No se puede acceder a los registros escritos con nombres personalizados desde AEM as a Cloud Service.
 
 ## Posibles soluciones {#solutions}

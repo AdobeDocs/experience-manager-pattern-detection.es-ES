@@ -2,10 +2,10 @@
 title: ASO
 description: Página de ayuda de código del detector de patrones.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '473'
-ht-degree: 100%
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
+workflow-type: tm+mt
+source-wordcount: '475'
+ht-degree: 85%
 
 ---
 
@@ -49,7 +49,7 @@ Los subtipos se utilizan para identificar diferentes tipos de información:
 * El mayor número de URL mnemónicas (>1000) puede cargar Dispatcher y los servidores de publicación con consultas costosas.
 * La aplicación personalizada puede depender de productos o características no disponibles en AEM as a Cloud Service.
 * La actualización con funciones no compatibles puede provocar un error en la actualización y una aplicación no funcional.
-* Un número elevado de flujos de trabajo de autor en estado en ejecución u obsoleto podría degradar el rendimiento.
+* Un número elevado de flujos de trabajo de autor en estado de ejecución o anticuado podría degradar el rendimiento.
 * Las consultas lentas pueden degradar el rendimiento del sistema.
 
 ## Posibles soluciones {#solutions}
@@ -61,7 +61,7 @@ Los subtipos se utilizan para identificar diferentes tipos de información:
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
 * No se recomiendan las actualizaciones de AEM con productos o funciones no compatibles y es posible que no sean compatibles.
-* Los activos no procesados deben ser procesados y la propiedad `dam:assetState` en el nodo `jcr:content` del recurso debe establecerse en “Procesado”. O bien, debe eliminar estos recursos del conjunto de migración antes de migrarlos a AEMaaCS.
+* Los activos no procesados deben ser procesados y el `dam:assetState` propiedad en el `jcr:content` del recurso debe establecerse en &quot;Procesado&quot;. O bien, debe eliminar estos recursos del conjunto de migración antes de migrarlos a AEMaaCS.
 * Las URL de vanidad podrían reemplazarse con las reescrituras de Apache.
 * Consulte la [documentación](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries) para solucionar problemas de consultas lentas.
 * Consulte las [notas de la versión](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) para obtener más información acerca de los cambios más recientes en AEM as a Cloud Service.
