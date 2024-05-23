@@ -2,10 +2,10 @@
 title: URS
 description: Página de ayuda de código del detector de patrones.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '377'
-ht-degree: 100%
+source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
+workflow-type: tm+mt
+source-wordcount: '380'
+ht-degree: 66%
 
 ---
 
@@ -16,14 +16,14 @@ Estructura de repositorio no admitida
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_overview"
 >title="Estructura de repositorio no admitida"
->abstract="URS identifica casos de características de nodo y estructura de repositorio no admitidas. Esta información aparece para evitar conflictos entre el código de producto AEM y el código de cliente, contenido que se está reestructurando fuera de /etc a otras carpetas del repositorio y más."
+>abstract="URS identifica casos de URS (estructura de repositorio no admitida) y características de nodo. AEM Esta información aparece para evitar conflictos entre el código de producto y el código de cliente, contenido que se está reestructurando fuera de la estructura de productos de `/etc` a otras carpetas del repositorio y más."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring" text="Reestructuración de repositorios"
 
 ## Fondo {#background}
 
-`URS` Identifica casos de estructura de repositorio no compatible y características de nodo. A partir del AEM 6.4, se han previsto directrices para la reestructuración del contenido del repositorio. Al delinear claramente las jerarquías para el código de producto AEM y el código de cliente y evitar conflictos entre ellos, el contenido se está reestructurando fuera de `/etc` a otras carpetas del repositorio, siguiendo las siguientes reglas de alto nivel:
+`URS`  Identifica casos de URS (estructura de repositorio no admitida) y características de nodo. A partir del AEM 6.4, se han previsto directrices para la reestructuración del contenido del repositorio. AEM Al delinear claramente las jerarquías para el código de producto, el código de producto y el código de cliente, y evitar conflictos entre todos ellos, el contenido se está reestructurando fuera de `/etc` a otras carpetas del repositorio. Al hacerlo, se adhieren a las siguientes reglas de alto nivel:
 
-* El código de producto de AEM siempre se colocará en `/libs`, que no se debe sobrescribir con el código personalizado.
+* AEM El código de producto siempre se coloca en `/libs` ese código personalizado no debe sobrescribirse.
 * El código personalizado debe colocarse en `/apps`, `/content`, y `/conf`.
 * Es muy recomendable que estas directrices se sigan para AEM as a Cloud Service.
 
@@ -46,7 +46,7 @@ Los subtipos se utilizan para identificar tipos específicos de problemas de rep
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_guidance"
 >title="Directrices de implementación"
->abstract="La práctica recomendada consiste en revisar su proyecto de código. Asegúrese de que sigue las directrices de estructura del proyecto AEM y evite que el código dependa de rutas de repositorio antiguas/no admitidas que puedan provocar un comportamiento no deseado en AEM as a Cloud Service. Póngase en contacto con el equipo de soporte de Adobe para obtener ayuda o aclaraciones."
+>abstract="La práctica recomendada consiste en revisar su proyecto de código. AEM AEM Asegúrese de que se adhiera a las directrices de estructura del proyecto de la y evite que el código dependa de rutas de repositorio antiguas o no admitidas que puedan provocar un comportamiento no deseado en los as a Cloud Service. Póngase en contacto con el equipo de soporte de Adobe para obtener ayuda o aclaraciones."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="Directrices de la estructura del proyecto AEM"
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 

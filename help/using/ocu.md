@@ -2,10 +2,10 @@
 title: OCU
 description: Página de ayuda de código del detector de patrones.
 exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '277'
-ht-degree: 100%
+source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 96%
 
 ---
 
@@ -39,6 +39,6 @@ Como las versiones anteriores no están instaladas de forma predeterminada, es p
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="API de SDK de Adobe Experience Manager"
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
-* A corto plazo: la instalación del paquete de compatibilidad podría resultar útil.
+* A corto plazo: la instalación de un paquete de compatibilidad podría ayudar.
 * A largo plazo: adapte el código de cliente para utilizar la versión más reciente de componentes de AEM o API.
 * Póngase en contacto con el [Equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o resolver dudas.
