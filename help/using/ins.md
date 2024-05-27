@@ -3,9 +3,9 @@ title: INS
 description: Página de ayuda de código del detector de patrones.
 exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -38,5 +38,5 @@ Los subtipos se utilizan para identificar los diferentes tipos de información, 
 >abstract="Póngase en contacto con el Servicio de atención al cliente para obtener ayuda."
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
-* Corrija las definiciones del área de nombres según la variable [Especificación JCR](https://developer.adobe.com/experience-manager/reference-materials/spec/jcr/1.0/4.5_Namespaces.html?lang=es). Siga los pasos mencionados [aquí](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/how-can-i-delete-a-namespace-created-in-crx/td-p/225163)
+* Corrija las definiciones de espacio de nombres según la [Especificación JCR](https://developer.adobe.com/experience-manager/reference-materials/spec/jcr/1.0/4.5_Namespaces.html?lang=es). Siga los pasos mencionados [aquí](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/how-can-i-delete-a-namespace-created-in-crx/td-p/225163)
 * Póngase en contacto con el [equipo de servicio de atención al cliente de Experience Manager](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para aclarar sus dudas o resolver sus problemas.

@@ -3,9 +3,9 @@ title: DM
 description: Obtenga información sobre cómo el código del detector de patrones identifica el uso de AEM Assets - Dynamic Media.
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Se utiliza un subtipo con este código:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_guidance"
 >title="Directrices de implementación"
->abstract="AEM as a Cloud Service solo admite el modo de ejecución dynamicmedia_scene7. Revise la configuración actual y póngase en contacto con el equipo de soporte de Adobe para obtener ayuda y aclaraciones."
+>abstract="AEM as a Cloud Service solo admite el modo de ejecución dynamicmedia_scene7. Revise la configuración actual y póngase en contacto con el equipo de asistencia de Adobe para obtener ayuda y aclaraciones."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media" text="Configuración de Dynamic Media"
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 

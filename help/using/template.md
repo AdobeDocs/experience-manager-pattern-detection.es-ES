@@ -2,9 +2,9 @@
 title: PLANTILLA
 description: Plantilla de la página de ayuda de código del detector de patrones.
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Responda a la pregunta: “¿Qué es esto?”
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
-Proporcione una descripción de las posibles implicaciones y riesgos que pueden surgir si no se hace nada al respecto.
+Proporcione una descripción de las potenciales implicaciones y riesgos que pueden surgir si no se hace nada al respecto.
 Responda a la pregunta: “¿Por qué debería importarme?”
 
 * Implicación o riesgo n.º 1

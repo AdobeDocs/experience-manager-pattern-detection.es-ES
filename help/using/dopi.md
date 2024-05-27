@@ -3,9 +3,9 @@ title: DOPI
 description: Página de ayuda de código del detector de patrones.
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_overview"
 >title="Índice de propiedades ordenadas en desuso"
->abstract="El código DOPI identifica el uso de definiciones de índice de propiedades ordenadas (`primaryType=oak:QueryIndexDefinition` Y `type="ordered"`). AEM AEM La definición quedó obsoleta en la versión 6.1 del y se eliminó en la versión 6.2."
+>abstract="El código DOPI identifica el uso de definiciones de índice de propiedades ordenadas (`primaryType=oak:QueryIndexDefinition` Y `type="ordered"`). La definición quedó obsoleta en AEM 6.1 y se eliminó en AEM 6.2."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#the-ordered-index" text="Índice ordenado: obsoleto"
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/operations/indexing" text="Indexación: AEM as a Cloud Service"
 
-`DOPI`  Identifica el uso de definiciones de índice de propiedades ordenadas (`primaryType=oak:QueryIndexDefinition` Y `type="ordered"`). AEM AEM Las definiciones quedaron obsoletas en la versión 6.1 del y se eliminaron en la versión 6.2.
+`DOPI`  Identifica el uso de definiciones de índice de propiedades ordenadas (`primaryType=oak:QueryIndexDefinition` Y `type="ordered"`). Las definiciones quedaron obsoletas en AEM 6.1 y se eliminaron en AEM 6.2.
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
@@ -41,7 +41,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_tools"
 >title="Herramientas y recursos"
->abstract="Revise el proyecto de WKND heredado para comprender cómo se pueden hacer compatibles las infracciones del DOPI con AEM Cloud Service. Además, revise el ejemplo de infracción de DOPI en GitHub. AEM Puede ayudarle a comprender cómo se pueden convertir los índices ordenados heredados a índices basados en Lucene compatibles con el as a Cloud Service de la."
+>abstract="Revise el proyecto de WKND heredado para comprender cómo se pueden hacer compatibles las infracciones del DOPI con AEM Cloud Service. Además, revise el ejemplo de infracción de DOPI en GitHub. Puede ayudarle a comprender cómo se pueden convertir los índices ordenados heredados a índices basados en Lucene compatibles con AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi" text="Proyecto de WKND heredado"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi" text="Ejemplo de infracción de DOPI: GitHub"
 
