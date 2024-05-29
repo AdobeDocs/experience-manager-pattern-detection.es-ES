@@ -3,9 +3,9 @@ title: ASO
 description: Página de ayuda de código del detector de patrones.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -46,10 +46,10 @@ Los subtipos se utilizan para identificar diferentes tipos de información:
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
 * La versión de AEM, los recuentos de nodos, los miembros del grupo, el almacén de nodos, los tipos de implementación del almacén de datos, el recuento de etiquetas CQ, el recuento de etiquetas inteligentes, la versión del componente principal, el tipo de instancia de AEM y el recuento de recursos sin procesar se proporcionan con fines informativos.
-* El mayor número de URL mnemónicas (>1000) puede cargar Dispatcher y los servidores de publicación con consultas costosas.
+* El mayor número de URL mnemónicas (>1000) puede sobrecargar Dispatcher y los servidores de publicación con consultas costosas.
 * La aplicación personalizada puede depender de productos o características no disponibles en AEM as a Cloud Service.
 * La actualización con funciones no compatibles puede provocar un error en la actualización y una aplicación no funcional.
-* Un número elevado de flujos de trabajo de autor en estado de ejecución o anticuado podría degradar el rendimiento.
+* Un número elevado de flujos de trabajo de autor en estado en ejecución u obsoleto podría degradar el rendimiento.
 * Las consultas lentas pueden degradar el rendimiento del sistema.
 
 ## Posibles soluciones {#solutions}
@@ -57,11 +57,11 @@ Los subtipos se utilizan para identificar diferentes tipos de información:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_guidance"
 >title="Directrices de implementación"
->abstract="La información expuesta mediante el código ASO proporciona información general para su entorno de AEM, incluida la versión, los complementos del producto y la información a nivel de sistema. Revísela para ver si hay productos o funciones no compatibles en AEM as a Cloud Service. Póngase en contacto con el equipo de soporte de Adobe para obtener ayuda o aclaraciones."
+>abstract="La información expuesta mediante el código ASO proporciona información general para su entorno de AEM, incluida la versión, los complementos del producto y la información a nivel de sistema. Revísela para ver si hay productos o funciones no compatibles en AEM as a Cloud Service. Póngase en contacto con la Asistencia de Adobe para obtener ayuda o aclaraciones."
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
 * No se recomiendan las actualizaciones de AEM con productos o funciones no compatibles y es posible que no sean compatibles.
-* Los activos no procesados deben ser procesados y el `dam:assetState` propiedad en el `jcr:content` del recurso debe establecerse en &quot;Procesado&quot;. O bien, debe eliminar estos recursos del conjunto de migración antes de migrarlos a AEMaaCS.
+* Los activos sin procesar deben ser procesados y la propiedad `dam:assetState` en el nodo `jcr:content` del recurso debe establecerse en “procesada”. O bien, debe eliminar estos recursos del conjunto de migración antes de migrarlos a AEMaaCS.
 * Las URL de vanidad podrían reemplazarse con las reescrituras de Apache.
 * Consulte la [documentación](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries) para solucionar problemas de consultas lentas.
 * Consulte las [notas de la versión](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) para obtener más información acerca de los cambios más recientes en AEM as a Cloud Service.

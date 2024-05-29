@@ -3,7 +3,7 @@ title: MSM
 description: Página de ayuda de código del detector de patrones.
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
 source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '144'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Los subtipos se utilizan para identificar diferentes tipos de información:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_msm_guidance"
 >title="Directrices de implementación"
->abstract="Una práctica recomendada es revisar todas las configuraciones de despliegue de MSM personalizadas y las acciones de despliegue personalizadas, y asegurarse de que funcionan en AEM as a Cloud Service. Póngase en contacto con el equipo de soporte de Adobe para obtener ayuda o aclaraciones."
+>abstract="Una práctica recomendada es revisar todas las configuraciones de despliegue de MSM personalizadas y las acciones de despliegue personalizadas, y asegurarse de que funcionan en AEM as a Cloud Service. Póngase en contacto con la Asistencia de Adobe para obtener ayuda o aclaraciones."
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
 * Póngase en contacto con el [equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o resolver dudas.

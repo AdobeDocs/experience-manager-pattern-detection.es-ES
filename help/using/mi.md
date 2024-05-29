@@ -3,9 +3,9 @@ title: MI
 description: Página de ayuda de código del detector de patrones.
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ Los subtipos se utilizan para identificar los diferentes tipos de información, 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
 * `sling.job.max.parallel`
-   * Un valor -1 se sustituye por el número de procesadores disponibles. AEM Como tal, puede causar problemas de rendimiento en una instancia de.
+   * Un valor -1 se sustituye por el número de procesadores disponibles. Como tal, puede causar problemas de rendimiento en una instancia de AEM.
 * `missing.maintenance.configuration`
-   * La falta de configuraciones de tarea de mantenimiento puede causar pérdida de rendimiento o daños en la instancia.
+   * La falta de configuraciones de tareas de mantenimiento puede causar pérdida de rendimiento o corrupción en la instancia.
 
 ## Posibles soluciones {#solutions}
 
