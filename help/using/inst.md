@@ -2,10 +2,10 @@
 title: INST
 description: Página de ayuda de código del detector de patrones.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
+source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 100%
+source-wordcount: '498'
+ht-degree: 90%
 
 ---
 
@@ -46,6 +46,10 @@ Los subtipos se utilizan para identificar diferentes tipos de información:
 * Es posible que las aplicaciones que dependen de paquetes de terceros no funcionen según lo esperado hasta que se implementen correctamente para trabajar con AEM as a Cloud Service.
 * Los paquetes de terceros proveedores, si no están optimizados para AEM as a Cloud Service, pueden dar como resultado un comportamiento no deseado.
 
+Además, considere la posibilidad de prestar atención a estos subtipos específicos:
+
+* `guava.bundle` - Guava no es compatible de forma predeterminada en AEM 6.5 LTS y el paquete no estará disponible después de la actualización.
+
 ## Posibles soluciones {#solutions}
 
 >[!CONTEXTUALHELP]
@@ -60,3 +64,4 @@ Los subtipos se utilizan para identificar diferentes tipos de información:
 * Los paquetes de terceros deben adherirse a las directrices de [desarrollo](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines) y [embalaje](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package) de AEM as a Cloud Service.
 * Consulte el proyecto de [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst) y comprenda cómo las [Infracciones INST](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst) pueden corregirse y hacerse compatibles con AEM as a Cloud Service.
 * Póngase en contacto con el [equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para aclarar sus dudas o resolver sus problemas.
+* Para el subtipo `guava.bundle`, instale Guava o elimine el uso si se usa Guava en el código personalizado.

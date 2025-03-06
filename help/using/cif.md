@@ -2,10 +2,10 @@
 title: CIF
 description: Página de ayuda de código del detector de patrones.
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 100%
+source-wordcount: '402'
+ht-degree: 76%
 
 ---
 
@@ -50,3 +50,16 @@ Los subtipos se utilizan para identificar los diferentes tipos de información:
 * Para apoyar proyectos que implementen CIF, Adobe proporciona [Componentes principales del CIF de AEM](https://github.com/adobe/aem-core-cif-components).
 * El complemento CIF también está disponible para AEM 6.5 a través del [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html). Es compatible y proporciona las mismas características que el complemento CIF para Experience Manager as a Cloud Service: no se requieren ajustes.
 * El CIF clásico con sus dependencias ya no está disponible. El código que se basa en esta versión del CIF que utiliza las API Java™ de com.adobe.cq.commerce.api debe ajustarse al complemento CIF y a sus principios.
+
+Además, a continuación encontrará las posibles soluciones para los diferentes subtipos:
+
+* `commerce.bundles.detected`: estos paquetes se desinstalarán durante la actualización
+* `commerce.packages.detected`: estos paquetes se eliminarán durante la actualización
+* `commerce.packages.dependency`: elimine cualquier dependencia de Commerce de los paquetes personalizados
+* `commerce.nodes.detected`: actualice el código personalizado para no crear nodos de CQ Commerce
+* `commerce.configs.detected`: no utilice las propiedades de configuración de CQ Commerce en el código personalizado
+* `commerce.users.detected` - No usar usuarios del servicio CQ Commerce en código personalizado
+* `commerce.overlays.detected` - Quitar el uso de superposiciones de CQ Commerce
+* `commerce.paths.detected`: elimine las rutas de comercio después de asegurarse de que no se están utilizando en AEM
+* `commerce.resource.type.detected` - Quitar uso de tipo de recurso de comercio
+* `commerce.usage`: elimine las API de CQ Commerce en su código personalizado.
