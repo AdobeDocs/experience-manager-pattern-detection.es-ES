@@ -20,7 +20,7 @@ Artefacto instalado
 >title="Artefacto instalado"
 >abstract="INST identifica paquetes personalizados y de terceros que el cliente ha instalado en AEM. Estos paquetes ayudan a caracterizar el estado del sistema y el ámbito general de un esfuerzo de actualización. Cualquier paquete de terceros debe adherirse a las directrices de desarrollo as a Cloud Service y empaquetado AEM."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Directrices de desarrollo: AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="Directrices de paquetes: AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="Directrices de paquetes: AEM as a Cloud Service"
 
 `INST` Identifica paquetes personalizados y de terceros que el cliente ha instalado en AEM. Estos paquetes ayudan a caracterizar el estado del sistema y el ámbito general de un esfuerzo de actualización.
 
@@ -61,7 +61,7 @@ Además, considere la posibilidad de prestar atención a estos subtipos específ
 
 * Los paquetes de terceros deben implementarse en AEM como parte del proyecto mediante el [proceso de implementación](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deployment-process) de Cloud Manager.
 * Consulte cómo [incrustar paquetes de terceros](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embedding-3rd-party-packages) en el proyecto para AEM as a Cloud Service.
-* Los paquetes de terceros deben adherirse a las directrices de [desarrollo](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines) y [embalaje](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package) de AEM as a Cloud Service.
+* Los paquetes de terceros deben adherirse a las directrices de [desarrollo](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines) y [embalaje](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package) de AEM as a Cloud Service.
 * Consulte el proyecto de [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst) y comprenda cómo las [Infracciones INST](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst) pueden corregirse y hacerse compatibles con AEM as a Cloud Service.
 * Póngase en contacto con el [equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para aclarar sus dudas o resolver sus problemas.
 * Para el subtipo `guava.bundle`, instale Guava o elimine el uso si se usa Guava en el código personalizado.
