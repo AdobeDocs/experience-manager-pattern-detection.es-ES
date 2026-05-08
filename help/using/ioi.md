@@ -4,7 +4,7 @@ description: Página de ayuda de código del detector de patrones.
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '229'
 ht-degree: 100%
 
 ---
@@ -38,4 +38,4 @@ Algunas de estas áreas son utilizadas por `com.adobe.granite.repository`, que c
 
 * Utilice la API de recursos de Sling (o la API de JCR) en lugar del acceso de bajo nivel.
 * Evite depender de paquetes internos que no formen parte de ninguna API pública o SPI.
-* Póngase en contacto con el [equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para aclarar sus dudas o resolver sus problemas.
+* Póngase en contacto con el [equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o resolver dudas.

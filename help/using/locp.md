@@ -4,7 +4,7 @@ description: Página de ayuda de código del detector de patrones.
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '224'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 >title="/libs Sobrescribir paquetes personalizados"
 >abstract="LOCP identifica la detección de un paquete personalizado que suministra contenido a `/libs`, que es un antipatrón (excepto si hay ACL)."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="Actualizaciones sostenibles"
->additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Fusión de recursos de Sling"
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Combinación de recursos de Sling"
 
 `LOCP` Identifica la detección de un paquete personalizado que envía contenido a `/libs`, que es un antipatrón (excepto en el caso de las ACL).
 

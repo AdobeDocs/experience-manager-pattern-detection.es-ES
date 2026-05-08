@@ -4,7 +4,7 @@ description: Página de ayuda de código del detector de patrones.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '534'
 ht-degree: 100%
 
 ---
@@ -34,18 +34,18 @@ Los subtipos se utilizan para identificar diferentes tipos de información:
 * `slow.query`: una consulta lenta.
 * `group.membership`: el número de usuarios y subgrupos (miembros directos/declarados únicamente) de un grupo.
 * `cqtag.count`: el número de activos etiquetados por CQ.
-* `smarttag.count`: el número de activos etiquetados inteligentes.
+* `smarttag.count`: el número de activos con etiquetas inteligentes.
 * `ccom.version`: la versión del paquete de componentes principales.
 * `instance.type`: el tipo de instancia de AEM (creación o publicación).
 * `unprocessed.asset.count`: el número de activos sin procesar.
-* `vanity.url.count`: el número de direcciones URL personalizadas.
+* `vanity.url.count`: el número de direcciones URL mnemónicas.
 * `index.size`: tamaño total del índice de Lucene migrable.
 * `workflow.count`: número de flujos de trabajo de autor en estado en ejecución y obsoleto.
 * `jvm.arguments`Los debates de JVM añadidos a la línea de comandos al iniciar la ejecución de AEM.
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
-* La versión de AEM, los recuentos de nodos, los miembros del grupo, el almacén de nodos, los tipos de implementación del almacén de datos, el recuento de etiquetas CQ, el recuento de etiquetas inteligentes, la versión del componente principal, el tipo de instancia de AEM y el recuento de recursos sin procesar se proporcionan con fines informativos.
+* La versión de AEM, los recuentos de nodos, los miembros del grupo, el almacén de nodos, los tipos de implementación del almacén de datos, el recuento de etiquetas CQ, el número de etiquetas inteligentes, la versión del componente principal, el tipo de instancia de AEM y el número de recursos sin procesar se proporcionan con fines informativos.
 * El mayor número de URL mnemónicas (>1000) puede sobrecargar Dispatcher y los servidores de publicación con consultas costosas.
 * La aplicación personalizada puede depender de productos o características no disponibles en AEM as a Cloud Service.
 * La actualización con funciones no compatibles puede provocar un error en la actualización y una aplicación no funcional.
@@ -62,7 +62,7 @@ Los subtipos se utilizan para identificar diferentes tipos de información:
 
 * No se recomiendan las actualizaciones de AEM con productos o funciones no compatibles y es posible que no sean compatibles.
 * Los activos sin procesar deben ser procesados y la propiedad `dam:assetState` en el nodo `jcr:content` del recurso debe establecerse en “procesada”. O bien, debe eliminar estos recursos del conjunto de migración antes de migrarlos a AEMaaCS.
-* Las URL de vanidad podrían reemplazarse con las reescrituras de Apache.
+* Las URL mnemónicas podrían reemplazarse con las reescrituras de Apache.
 * Consulte la [documentación](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries) para solucionar problemas de consultas lentas.
 * Consulte las [notas de la versión](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) para obtener más información acerca de los cambios más recientes en AEM as a Cloud Service.
 * Póngase en contacto con el [equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o resolver dudas.

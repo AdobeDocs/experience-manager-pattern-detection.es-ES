@@ -4,7 +4,7 @@ description: Página de ayuda de código del detector de patrones.
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '407'
 ht-degree: 100%
 
 ---
@@ -19,11 +19,11 @@ Infracción de área de contenido
 >id="aemcloud_bpa_cav_overview"
 >title="Infracción de área de contenido"
 >abstract="El código CAV identifica el patrón en el que se utilizan diferentes áreas de contenido de una manera que infringe las reglas de la clasificación de contenido. Esta infracción le proporcionará información general sobre las superposiciones, el contenido restringido que podría ser necesario modificar una vez que pase a AEM as a Cloud Service."
->additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Fusión de recursos de Sling"
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Combinación de recursos de Sling"
 
 `CAV` Identifica el patrón en el que se utilizan distintas áreas de contenido de forma que se infringen las reglas de la clasificación de contenido.
 
-El procesamiento de solicitudes de Sling define el modo en que el contenido de un recurso, su propiedad `sling:resourceType` en particular, se utiliza para determinar la secuencia de comandos que se utiliza para procesar el contenido. Consulte [Localización de la secuencia de comandos](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-scrip) para obtener más información. Sling también proporciona técnicas para acceder y combinar recursos a través de Superposiciones y Anulaciones. Estas técnicas se describen como parte de [Fusión de recursos de Sling](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) y en [Superposiciones](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/platform/overlays).
+El procesamiento de solicitudes de Sling define el modo en que el contenido de un recurso, su propiedad `sling:resourceType` en particular, se utiliza para determinar la secuencia de comandos que se utiliza para procesar el contenido. Consulte [Localización de la secuencia de comandos](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-scrip) para obtener más información. Sling también proporciona técnicas para acceder y combinar recursos a través de Superposiciones y Anulaciones. Estas técnicas se describen como parte de [Combinación de recursos de Sling](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) y en [Superposiciones](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/platform/overlays).
 
 Para que sea más seguro y fácil para los clientes comprender qué áreas de `/libs` son seguras de utilizar y superponer, el contenido de `/libs` se ha clasificado con propiedades de “mezcla”:
 
