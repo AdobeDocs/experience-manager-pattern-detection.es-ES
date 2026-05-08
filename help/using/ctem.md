@@ -4,7 +4,7 @@ description: Página de ayuda de código del detector de patrones.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '301'
 ht-degree: 100%
 
 ---
@@ -49,4 +49,4 @@ Las plantillas tienen un valor de tipo principal de `cq:Template`, que ayuda a i
 
 * Utilice las [Herramientas de modernización de AEM](https://opensource.adobe.com/aem-modernize-tools/) para migrar plantillas estáticas a plantillas editables.
 * Para obtener más información sobre las plantillas editables, consulte [Plantillas](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/platform/templates/templates).
-* Póngase en contacto con el [equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para aclarar sus dudas o resolver sus problemas.
+* Póngase en contacto con el [equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o resolver dudas.

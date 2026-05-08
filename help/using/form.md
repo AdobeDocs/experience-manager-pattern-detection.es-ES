@@ -4,8 +4,8 @@ description: Página de ayuda de código del detector de patrones.
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 100%
+source-wordcount: '1231'
+ht-degree: 96%
 
 ---
 
@@ -40,7 +40,7 @@ Aborde los siguientes problemas, antes de migrar a [!DNL Adobe Experience Manage
 
 * La compatibilidad con el correo electrónico (puerto SMTP) está deshabilitada de forma predeterminada. (EMAIL_SERVICE_CONFIGURATION)
 
-* La acción de envío de **[!UICONTROL PDF de correo electrónico]** no está disponible. (EMAIL_PDF_SUBMIT_ACTION)
+* La acción de envío **[!UICONTROL Correo electrónico de PDF]** no está disponible.(EMAIL_PDF_SUBMIT_ACTION)
 
 * Los formularios adaptables basados en XFA aún no son compatibles. (XFA_BASED_FORM, XDP_BASED_FORM)
 
@@ -52,7 +52,7 @@ Aborde los siguientes problemas, antes de migrar a [!DNL Adobe Experience Manage
 
 * La acción de envío **[!UICONTROL Enviar a Forms Workflow]** no está disponible. En AEM 6.5 Forms y versiones anteriores, la acción de envío se utilizaba para enviar datos de formulario adaptable a AEM Forms heredados en flujos de trabajo JEE y LiveCycle. (LC_WORKFLOW_SUBMISSION)
 
-* La capacidad de comunicaciones interactivas no está disponible.  (FP_PROFILE_INTERACTIVE_COMMUNICATIONS).
+* La capacidad de comunicaciones interactivas no está disponible. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS).
 
 * El acordeón de metadatos no está disponible. (METADATA_ACCORDION_FORM_CONTAINER)
 
@@ -76,7 +76,7 @@ Aborde los siguientes problemas, antes de migrar a [!DNL Adobe Experience Manage
 
 * Use la acción de envío **[!UICONTROL Correo electrónico]** en lugar de **[!UICONTROL PDF de correo electrónico]**. La acción de envío **[!UICONTROL Correo electrónico]** proporciona opciones para enviar archivos adjuntos y adjuntar el documento de registro (DoR) mediante correo electrónico. (EMAIL_PDF_SUBMIT_ACTION)
 
-* Los datos enviados contienen un ID de acuerdo de Adobe Acrobat Sign. Puede utilizar el ID del acuerdo de Sign para recuperar un PDF del contrato de Sign, si es necesario.  (FORM_SIGN_INTEGRATION)
+* Los datos enviados contienen un ID de acuerdo de Adobe Acrobat Sign. Puede utilizar el ID del acuerdo de Sign para recuperar un PDF del contrato de Sign, si es necesario. (FORM_SIGN_INTEGRATION)
 
 * Elimine el paso Firma de un formulario adaptable existente. Configure el formulario adaptable para usar [experiencia de firma en el explorador](https://blog.developer.adobe.com/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684). Muestra el acuerdo de Adobe Sign para su firma dentro del explorador al enviar un formulario adaptable. La experiencia de firma en el explorador ayuda a proporcionar una experiencia de firma más rápida y ahorra tiempo para el firmante. (SIGNATURE_STEP)
 
@@ -96,6 +96,6 @@ Aborde los siguientes problemas, antes de migrar a [!DNL Adobe Experience Manage
 
 * Los formularios adaptables ofrecen un diseño interactivo. Estos formularios cambian el aspecto, el diseño y la interactividad en función del dispositivo subyacente. Puede seguir utilizando formularios adaptables en dispositivos móviles. Busque las notas de la versión mensuales para obtener información sobre la disponibilidad de la aplicación [!DNL AEM Forms]. (AEM_FORMS_APP)
 
-* La compatibilidad con formularios adaptables basados en XFA no está disponible de forma predeterminada. Si tiene intención de utilizar formularios adaptables basados en XFA, póngase en contacto con el servicio de soporte de Adobe e incluya información sobre su caso de uso y los requisitos específicos en el mensaje.(XFA_BASED_FORM, XDP_BASED_FORM)
+* La compatibilidad con formularios adaptables basados en XFA no está disponible de forma predeterminada. Si tiene intención de utilizar un Forms adaptable basado en XFA, póngase en contacto con el servicio de asistencia de Adobe e incluya información sobre su caso de uso y los requisitos específicos en el mensaje. (XFA_BASED_FORM, XDP_BASED_FORM)
 
 Póngase en contacto con el [Equipo de soporte de Adobe](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o resolver dudas.

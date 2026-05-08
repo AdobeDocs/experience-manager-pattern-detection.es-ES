@@ -4,8 +4,8 @@ description: Página de ayuda de código del detector de patrones.
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 100%
+source-wordcount: '793'
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ Interfaz de usuario heredada
 Los subtipos se utilizan para identificar los diferentes tipos de elementos de la interfaz de usuario que deberían o deben actualizarse:
 
 * `legacy.dialog.classic`: los cuadros de diálogo de la IU clásica basados en ExtJS deben cambiarse a Coral.
-   * Esto se detecta cuando el nombre del cuadro de diálogo es `dialog` o `design_dialog` y cuando
+   * Este subtipo se detecta cuando el nombre del cuadro de diálogo es `dialog` o `design_dialog` y cuando
 el valor de propiedad `jcr:primaryType` o el valor de propiedad `xtype` es `cq:Dialog`.
 * `legacy.dialog.coral2`: los cuadros de diálogo de `Coral 2` deben actualizarse para que usen `Coral 3`.
    * Este subtipo se detecta cuando el cuadro de diálogo y los nombres de sus nodos de contenido secundarios son
@@ -34,12 +34,12 @@ el valor de propiedad `jcr:primaryType` o el valor de propiedad `xtype` es `cq:D
       * `cq:design_dialog/content`,
       * `cq:dialog.coral2/content`,
       * o `cq:design_dialog.coral2/content`
-y el el valor de propiedad `sling:resourceType` no contiene `granite/ui/components/coral/foundation`.
+y el valor de la propiedad `sling:resourceType` no contiene `granite/ui/components/coral/foundation`.
 * `legacy.custom.component`: los componentes que se heredan de `foundation/components`, deben actualizarse para poder usar los componentes principales.
    * Este subtipo se detecta cuando el valor de propiedad `jcr:primaryType` es `cq:Component` y el
      valor de propiedad `sling:resourceSuperType` contiene “foundation/components”. O cualquiera de los
-     valores de propiedad `sling:resourceSuperType` de la cadena de componentes de supertipo contienen 
-“foundation/components”.
+     `sling:resourceSuperType` valores de propiedad de la cadena de componentes de supertipo contienen
+&quot;foundation / components&quot;.
 * `legacy.static.template`: las plantillas estáticas deben actualizarse a plantillas editables.
    * Este subtipo se detecta cuando el valor de propiedad `jcr:primaryType` es `cq:Template`.
 * `content.fragment.template`: las plantillas de fragmento de contenido deben crear modelos de fragmento para reemplazar las plantillas de fragmento.
@@ -59,7 +59,7 @@ y el el valor de propiedad `sling:resourceType` no contiene `granite/ui/componen
 
 * La IU clásica ya no está disponible en AEM as a Cloud Service. La interfaz estándar para la creación es la IU táctil.
 * El uso de componentes personalizados heredados puede aumentar los costes de mantenimiento a lo largo del tiempo.
-* Las plantillas de fragmento de contenido reemplazaron a los modelos de fragmento de contenido de AEM 6.3. Al migrar los fragmentos de contenido basados en plantillas heredadas a AEM as a Cloud Service, estos fragmentos se conservan como funcionales, pero no se pueden crear nuevos basados en la plantilla heredada. Tampoco es posible distribuir estos fragmentos mediante AEM GraphQL, que necesita modelos de fragmento de contenido como esquemas.
+* Las plantillas de fragmento de contenido reemplazaron a los modelos de fragmento de contenido en AEM 6.3. Al migrar fragmentos de contenido basados en plantillas heredadas a AEM as a Cloud Service, se conservan estos fragmentos como funcionales, pero no es posible crear fragmentos basados en la plantilla heredada. Tampoco es posible distribuir estos fragmentos mediante AEM GraphQL, que necesita modelos de fragmento de contenido como esquemas.
 * /apps es inmutable en tiempo de ejecución y translator.html ya no está disponible en AEM as a Cloud Service. Así, los diccionarios `I18n` deben proceder de Git mediante la canalización CI/CD.
 
 ## Posibles soluciones {#solutions}
@@ -73,7 +73,7 @@ y el el valor de propiedad `sling:resourceType` no contiene `granite/ui/componen
 
 * Para reducir el esfuerzo necesario para modernizar sus implementaciones de AEM Sites, utilice el [conjunto de herramientas de modernización de AEM](https://opensource.adobe.com/aem-modernize-tools/). Estas herramientas incluyen la conversión de:
    * Cuadros de diálogo clásicos (ExtJS) a Coral
-   * Componentes básicos a principales
+   * Componentes básicos a Componentes principales
    * Plantillas estáticas y control de columna a plantillas editables y cuadrícula adaptable
    * Diseños y cuadros de diálogo de diseño a políticas de plantilla editables
 * Revise la biblioteca de componentes personalizados del proyecto y la transición, si es posible, al conjunto de [Componentes principales](https://experienceleague.adobe.com/es/docs/experience-manager-core-components/using/introduction) para acelerar el tiempo de desarrollo y reducir el coste de mantenimiento de sus aplicaciones.

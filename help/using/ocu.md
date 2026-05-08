@@ -4,7 +4,7 @@ description: Página de ayuda de código del detector de patrones.
 exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
 source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '317'
 ht-degree: 100%
 
 ---
@@ -41,4 +41,4 @@ Como las versiones anteriores no están instaladas de forma predeterminada, es p
 
 * A corto plazo: la instalación de un paquete de compatibilidad podría resultar útil.
 * A largo plazo: adapte el código de cliente para utilizar la versión más reciente de componentes de AEM o API.
-* Póngase en contacto con el [Equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o resolver dudas.
+* Póngase en contacto con el [equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o resolver dudas.

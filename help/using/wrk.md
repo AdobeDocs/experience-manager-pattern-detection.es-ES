@@ -4,7 +4,7 @@ description: Página de ayuda de código del detector de patrones.
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '425'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ Se utiliza un subtipo para identificar el tipo de problema de flujo de trabajo q
 >abstract="Los flujos de trabajo de recursos estándar son compatibles automáticamente con mis microservicios de recursos. Por lo tanto, una práctica recomendada es revisar todos los modelos de flujo de trabajo de activos personalizados o el lanzador. Al revisarlas, puede ver si son necesarias después de la transición a AEM as a Cloud Service. Las personalizaciones de los flujos de trabajo de activos requieren la migración para que funcionen con AEM as a Cloud Service con la ayuda de la herramienta de migración de flujos de trabajo de activos"
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/asset-microservices-configure-and-use" text="Introducción: microservicios de recursos"
 
-* El procesamiento de recursos se ha realizado tradicionalmente con flujos de trabajo de recursos que se ejecutan en la instancia de creación de AEM. Con AEM as a Cloud Service, los microservicios de recursos realizan el procesamiento de recursos. Consulte la [información general sobre los microservicios de recursos](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview) para obtener más información.
+* El procesamiento de recursos se ha realizado tradicionalmente con flujos de trabajo de recursos que se ejecutan en la instancia de autor de AEM. Con AEM as a Cloud Service, los microservicios de recursos realizan el procesamiento de recursos. Consulte la [información general sobre los microservicios de recursos](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview) para obtener más información.
 * Los flujos de trabajo de recursos estándar son compatibles automáticamente con mis microservicios de recursos.
 * Las personalizaciones de los flujos de trabajo de recursos requieren la migración para funcionar con AEM as a Cloud Service.
 

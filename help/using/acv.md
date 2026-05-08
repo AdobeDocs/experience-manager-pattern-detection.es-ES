@@ -4,7 +4,7 @@ description: Página de ayuda de código del detector de patrones.
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '530'
 ht-degree: 100%
 
 ---
@@ -55,4 +55,4 @@ Los subtipos se utilizan para identificar los diferentes tipos de información, 
 * No se requiere ninguna acción para la representación original de los recursos secundarios que faltan.
 * En caso de nodos de conflicto, deben resolverse o deben eliminarse antes de migrar a AEM as a Cloud Service.
 * Póngase en contacto con la Asistencia al cliente de Adobe si tiene previsto procesar muchos archivos PSD o PSB grandes. Es posible que Experience Manager no procese archivos PSB de alta resolución que tengan más de 30000 x 23000 píxeles. Consulte la [documentación](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick)
-* Póngase en contacto con el [servicio de atención al cliente de Experience Manager](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para aclarar sus dudas o resolver sus problemas.
+* Póngase en contacto con el [equipo de servicio de atención al cliente de Experience Manager](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para aclarar sus dudas o resolver sus problemas.

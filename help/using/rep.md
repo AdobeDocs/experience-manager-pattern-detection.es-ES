@@ -4,7 +4,7 @@ description: Página de ayuda de código del detector de patrones.
 exl-id: e788deba-a301-404f-8e90-51f721409e69
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '531'
 ht-degree: 100%
 
 ---
@@ -55,4 +55,4 @@ AEM as a Cloud Service usa [Sling Content Distribution](https://sling.apache.org
 * Consulte las [Directrices de desarrollo](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents) de AEM as a Cloud Service y las notas de la versión para [agentes de replicación](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents).
 * Revise, refactorice y optimice la funcionalidad directamente dependiendo de los agentes de replicación para realizar tareas del negocio.
 * Descubra cómo la [replicación](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/deploying/overview#replication) se ve afectada por la implementación en AEM as a Cloud Service.
-* Póngase en contacto con el [Equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o resolver dudas.
+* Póngase en contacto con el [equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o resolver dudas.
