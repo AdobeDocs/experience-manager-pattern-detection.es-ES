@@ -13,7 +13,7 @@ ht-degree: 100%
 
 Problema de configuración incorrecta
 
-## Fondo {#background}
+## Contexto {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_mi_overview"
@@ -38,7 +38,7 @@ Los subtipos se utilizan para identificar los diferentes tipos de información, 
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_mi_guidance"
->title="Directrices de implementación"
+>title="Directrices para la implementación"
 >abstract="Póngase en contacto con el Servicio de atención al cliente para obtener ayuda."
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
