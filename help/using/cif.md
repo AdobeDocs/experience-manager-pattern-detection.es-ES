@@ -13,7 +13,7 @@ ht-degree: 80%
 
 Commerce Integration Framework clásico
 
-## Fondo {#background}
+## Contexto {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cif_overview"
@@ -32,7 +32,7 @@ Los subtipos se utilizan para identificar los diferentes tipos de información:
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cif_guidance"
->title="Directrices de implementación"
+>title="Directrices para la implementación"
 >abstract="Una práctica recomendada es revisar toda la versión clásica del uso de Commerce Integration Framework."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/content-and-commerce/changes" text="Cambios importantes en CIF"
 
