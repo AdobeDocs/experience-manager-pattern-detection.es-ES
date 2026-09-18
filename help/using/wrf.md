@@ -1,16 +1,15 @@
 ---
 title: WRF
 description: Página de ayuda de código del detector de patrones.
-source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
+exl-id: 36578498-d5b2-46d1-a274-a1646ceaa764
+source-git-commit: 29d702c9662fd185ef806123fc4f4a03a70d64aa
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '91'
 ht-degree: 8%
-
 ---
-
 # WRF {#wrf}
 
-## Fondo {#background}
+## Contexto {#background}
 
 WRF identifica el uso de We-Retail incompatible con AEM 6.5 LTS.
 
