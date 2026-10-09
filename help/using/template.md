@@ -1,13 +1,14 @@
 ---
 title: PLANTILLA
 description: Plantilla de la página de ayuda de código del detector de patrones.
-source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '128'
 ht-degree: 100%
-
 ---
-
 
 # [!DNL TEMPLATE] {#template}
 
@@ -33,4 +34,4 @@ Responda a la pregunta: “¿Qué puedo hacer al respecto?”
 
 * Posible solución n.º 1
 * Posible solución n.º 2
-* Póngase en contacto con el [equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para aclarar sus dudas o resolver sus problemas.
+* Póngase en contacto con el [equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o resolver dudas.

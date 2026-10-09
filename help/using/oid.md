@@ -2,13 +2,17 @@
 title: OID
 description: Página de ayuda de código del detector de patrones.
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 100%
-
 ---
-
 # OID {#oid}
 
 Definición de índice de Oak
@@ -35,7 +39,7 @@ Los subtipos se utilizan para identificar los diferentes tipos de información:
 >title="Directrices de implementación"
 >abstract="Una práctica recomendada consiste en revisar todos los índices personalizados y reestructurarlos según las directrices de indexación de contenido. Utilice el conversor de índices para migrar las definiciones de índices personalizadas de Oak existentes a la definición de índices Oak personalizadas y compatibles con AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#oak-indexes" text="Directrices de paquetes"
->additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/index-converter#refactoring-tools" text="Conversor de índices"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/index-converter#refactoring-tools" text="Conversor de índices"
 
 * Las modificaciones en las definiciones de índices estándar de Oak pueden perderse durante una actualización de AEM.
 * Las definiciones de Oak son inmutables, deben empaquetarse con el código de proyecto del cliente y solo deben implementarse mediante Cloud Manager.
@@ -55,4 +59,4 @@ Los subtipos se utilizan para identificar los diferentes tipos de información:
 * Los índices estándar de AEM personalizados y las nuevas definiciones de índices de Oak personalizadas deben seguir las [directrices de indexación de contenido](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/operations/indexing#preparing-the-new-index-definition) para AEM as a Cloud Service.
 * Consulte el proyecto de [WKND heredado](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid) y comprenda cómo las [infracciones de OID](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid) pueden corregirse y hacerse compatibles con AEM as a Cloud Service.
 * Póngase en contacto con el [equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o resolver dudas.
-* Utilice el [Conversor de índices](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/index-converter#refactoring-tools) para migrar las definiciones de índice de Oak personalizadas existentes a definiciones de índice de Oak personalizadas compatibles con AEM as a Cloud Service.
+* Utilice el [Conversor de índices](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/index-converter#refactoring-tools) para migrar las definiciones de índice de Oak personalizadas existentes a definiciones de índice de Oak personalizadas compatibles con AEM as a Cloud Service.

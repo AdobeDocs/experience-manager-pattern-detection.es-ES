@@ -2,13 +2,17 @@
 title: NBCC
 description: Página de ayuda de código del detector de patrones.
 exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 100%
-
 ---
-
 # NBCC {#nbcc}
 
 OBSOLETO: cambios no compatibles con versiones anteriores (reemplazados por NCC, cambios no compatibles)
@@ -33,7 +37,7 @@ OBSOLETO: cambios no compatibles con versiones anteriores (reemplazados por NCC,
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_nbcc_guidance"
->title="Directrices de implementación"
+>title="Directrices para la implementación"
 >abstract="Una práctica recomendada consiste en revisar el código personalizado y asegurarse de que solo los componentes de Sling compatibles con versiones anteriores se superponen o se hace referencia a ellos. Póngase en contacto con la Asistencia de Adobe para obtener ayuda o aclaraciones."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/platform/overlays#platform" text="Superposiciones"
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"

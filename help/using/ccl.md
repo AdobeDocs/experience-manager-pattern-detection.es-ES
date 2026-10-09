@@ -2,13 +2,17 @@
 title: CCL
 description: Página de ayuda de código del detector de patrones.
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 100%
-
 ---
-
 # CCL {#ccl}
 
 Biblioteca de cliente personalizada
@@ -34,7 +38,7 @@ Se utiliza un subtipo con este código:
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccl_guidance"
->title="Directrices de implementación"
+>title="Directrices para la implementación"
 >abstract="Las bibliotecas de cliente añadidas a AEM identificadas por CCL deben revisarse para garantizar que no haya duplicación y que se utilicen las versiones más recientes. Póngase en contacto con la Asistencia de Adobe para obtener ayuda o aclaraciones."
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 

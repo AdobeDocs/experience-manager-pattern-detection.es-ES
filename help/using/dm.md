@@ -2,13 +2,17 @@
 title: DM
 description: Obtenga información sobre cómo el código del detector de patrones identifica el uso de AEM Assets - Dynamic Media.
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 100%
-
 ---
-
 # DM {#dm}
 
 Dynamic Media
@@ -19,7 +23,7 @@ Dynamic Media
 >id="aemcloud_bpa_dm_overview"
 >title="Dynamic Media"
 >abstract="El código DM identifica el uso de AEM Assets Dynamic Media en la implementación actual. El modo de ejecución detecta el modo Dynamic Media."
->additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="Desarrollo de AEM: directrices y prácticas recomendadas"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="Desarrollo de AEM: directrices y prácticas recomendadas"
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Directrices de desarrollo de AEM as a Cloud Service"
 
 `DM` (Dynamic Media) Identifica el uso de AEM Assets Dynamic Media. El modo de ejecución detecta el modo Dynamic Media.
@@ -27,25 +31,25 @@ Dynamic Media
 Se utiliza un subtipo con este código:
 
 * `dynamic.media.runmode`: El valor asociado de este subtipo, si se proporciona, es:
-   * `dynamicmedia`: Dynamic Media, modo híbrido
-   * `dynamicmedia_scene7`: Dynamic Media, modo Scene7
+  * `dynamicmedia`: Dynamic Media, modo híbrido
+  * `dynamicmedia_scene7`: Dynamic Media, modo Scene7
 
 ## Posibles implicaciones y riesgos {#implications-and-risks}
 
 * `dynamic.media.runmode`
-   * Puede haber problemas de actualización relacionados con Dynamic Media.
+  * Puede haber problemas de actualización relacionados con Dynamic Media.
 
 ## Posibles soluciones {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_guidance"
->title="Directrices de implementación"
+>title="Directrices para la implementación"
 >abstract="AEM as a Cloud Service solo admite el modo de ejecución dynamicmedia_scene7. Revise la configuración actual y póngase en contacto con el equipo de asistencia de Adobe para obtener ayuda y aclaraciones."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media" text="Configuración de Dynamic Media"
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
 
 * `dynamic.media.runmode`
-   * Encuentre más información en la [Configuración de Dynamic Media](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media).
+  * Encuentre más información en la [Configuración de Dynamic Media](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media).
 
 * Póngase en contacto con el [equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o resolver dudas.

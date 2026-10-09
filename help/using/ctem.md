@@ -2,13 +2,17 @@
 title: CTEM
 description: Página de ayuda de código del detector de patrones.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 100%
-
 ---
-
 # CTEM {#ctem}
 
 Plantilla personalizada
@@ -33,7 +37,7 @@ Las plantillas tienen un valor de tipo principal de `cq:Template`, que ayuda a i
 >id="aemcloud_bpa_ctem_guidance"
 >title="Directrices de implementación"
 >abstract="Una práctica recomendada es mover todas las plantillas estáticas a plantillas editables. Los clientes pueden utilizar las herramientas de modernización de AEM existentes para migrar las plantillas estáticas a plantillas editables."
->additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/platform/templates/templates" text="Plantillas editables"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates" text="Plantillas editables"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="Herramientas de modernización de AEM"
 
 * Una práctica recomendada es mover todas las plantillas estáticas a plantillas editables.
@@ -48,5 +52,5 @@ Las plantillas tienen un valor de tipo principal de `cq:Template`, que ayuda a i
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 
 * Utilice las [Herramientas de modernización de AEM](https://opensource.adobe.com/aem-modernize-tools/) para migrar plantillas estáticas a plantillas editables.
-* Para obtener más información sobre las plantillas editables, consulte [Plantillas](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/platform/templates/templates).
+* Para obtener más información sobre las plantillas editables, consulte [Plantillas](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates).
 * Póngase en contacto con el [equipo de soporte de AEM](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para obtener aclaraciones o resolver dudas.

@@ -2,13 +2,17 @@
 title: CAV
 description: Página de ayuda de código del detector de patrones.
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%
-
 ---
-
 # CAV {#cav}
 
 Infracción de área de contenido
@@ -43,7 +47,7 @@ Cada clasificación implica reglas acerca de cómo se puede usar, heredar o supe
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_guidance"
->title="Directrices de implementación"
+>title="Directrices para la implementación"
 >abstract="Deben revisarse los patrones identificados con CAS en los que existen diferentes infracciones de área de contenido. Deben evitarse las áreas de clasificación de contenido Final e Interno. Póngase en contacto con la Asistencia de Adobe para obtener ayuda o aclaraciones."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="Actualizaciones sostenibles"
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
