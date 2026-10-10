@@ -2,13 +2,17 @@
 title: INS
 description: Página de ayuda de código del detector de patrones.
 exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 100%
-
 ---
-
 # INS {#ins}
 
 Espacio de nombres no válido
@@ -34,7 +38,7 @@ Los subtipos se utilizan para identificar los diferentes tipos de información, 
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ins_guidance"
->title="Directrices de implementación"
+>title="Directrices para la implementación"
 >abstract="Póngase en contacto con el Servicio de atención al cliente para obtener ayuda."
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 

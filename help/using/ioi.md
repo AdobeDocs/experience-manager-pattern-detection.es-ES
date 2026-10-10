@@ -2,13 +2,17 @@
 title: IOI
 description: Página de ayuda de código del detector de patrones.
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '233'
 ht-degree: 100%
-
 ---
-
 # IOI {#ioi}
 
 Importación interna de Oak
@@ -32,7 +36,7 @@ Algunas de estas áreas son utilizadas por `com.adobe.granite.repository`, que c
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_guidance"
->title="Directrices de implementación"
+>title="Directrices para la implementación"
 >abstract="Los clientes deben revisar su código personalizado para identificar el uso de dichas API y refactorizarlas para que sean compatibles con AEM as a Cloud Service. Póngase en contacto con la Asistencia de Adobe para obtener ayuda o aclaraciones."
 >additional-url="https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html" text="Soporte de Experience Cloud"
 

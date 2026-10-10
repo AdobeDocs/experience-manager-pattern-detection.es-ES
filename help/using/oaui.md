@@ -2,13 +2,17 @@
 title: OAUI
 description: Página de ayuda de código del detector de patrones.
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 100%
-
 ---
-
 # OAUI {#oaui}
 
 Instancia de usuarios de OAuth
@@ -35,7 +39,7 @@ Un ejemplo es: `/home/users/ims/0001/R80w6XaUCBq3jHE47xDN/oauth`.
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_guidance"
->title="Directrices de implementación"
+>title="Directrices para la implementación"
 >abstract="Los usuarios externos configurados con OAuth no pueden iniciar sesión en instancias de creación/publicación hasta que se hayan reconfigurado para ser compatibles con AEM as a Cloud Service. AEM as a Cloud Service ofrece compatibilidad con la autenticación IMS solo para usuarios autores, administradores y desarrolladores y proporciona integración basada en SAML para los entornos de publicación. Póngase en contacto con la Asistencia de Adobe para obtener ayuda o aclaraciones."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/security/ims-support" text="Compatibilidad con IMS: AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier#integration-with-an-idp" text="Integración de SAML: publicación"
